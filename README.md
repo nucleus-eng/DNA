@@ -72,7 +72,7 @@ The `RBS/` directory contains translation initiation parts:
 
 ### `terminators/` — T7 terminator variants
 
-The `terminators/` directory contains three T7 terminator variants:
+The `terminators/` directory contains three T7 terminator variants originally developed in [Calvopina-Chavez, Gardner, and Griffitts, 2022](https://doi.org/10.1093/g3journal/jkac070):
 - `pOpen-tT7.gb` — native T7 terminator
 - `pOpen-tT7hyb6.gb` — hybrid T7 terminator variant 6
 - `pOpen-tT7hyb10.gb` — hybrid T7 terminator variant 10
