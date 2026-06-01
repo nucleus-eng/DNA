@@ -20,6 +20,7 @@ DNA/
 ├── RBS/                 # Ribosome binding site and UTR parts
 ├── terminators/         # T7 terminator variants
 ├── reporters/           # Protein reporter constructs 
+└── pores/               # passive membrane transport
 └── detectors/
     ├── quorum-sensing/  # Quorum sensing circuit components
     └── ...              # LacI/TetR-based repressor and operator constructs
@@ -82,6 +83,11 @@ The `terminators/` directory contains three T7 terminator variants originally de
 ### `reporters/` — Protein reporters
 
 The `reporters/` directory contains fluorescent protein and chromoprotein reporter constructs. Includes cjBlue, eforRed, plamGFP, amajLime, gfasPurple, meleRFP, and mmilCFP. Several reporters include a lacO operator insert for lac-regulated expression, and some include a C-terminal His6 tag for downstream purification.
+
+---
+
+### `pores/` — Passive transport through the membrane
+The `pores/` directory contains passive transport membrane channel proteins for use in synthetic cells. Includes [Cx43 and Cx43-eGFP](https://docs.nucleus.engineering/docs/modules/membrane-pore-cx43/spec/) in pOpen.
 
 ---
 
