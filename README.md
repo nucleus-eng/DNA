@@ -20,7 +20,8 @@ DNA/
 ├── RBS/                 # Ribosome binding site and UTR parts
 ├── terminators/         # T7 terminator variants
 ├── reporters/           # Protein reporter constructs 
-└── pores/               # passive membrane transport
+├── pores/               # passive membrane transport
+├── emitters/            # signal emission modules
 └── detectors/
     ├── quorum-sensing/  # Quorum sensing circuit components
     └── ...              # LacI/TetR-based repressor and operator constructs
@@ -87,7 +88,14 @@ The `reporters/` directory contains fluorescent protein and chromoprotein report
 ---
 
 ### `pores/` — Passive transport through the membrane
+
 The `pores/` directory contains passive transport membrane channel proteins for use in synthetic cells. Includes [Cx43 and Cx43-eGFP](https://docs.nucleus.engineering/docs/modules/membrane-pore-cx43/spec/) in pOpen.
+
+---
+
+### `emitters/` — Signal emission modules
+
+The `emitters/` directory contains constructs for signal emission modules, typically small molecule generators. Includses [bjaI (tet regulation)](https://docs.nucleus.engineering/docs/implementations/responder-atc-ivhsl/main/), which produces the quorum sensing module IV-HSL.
 
 ---
 
