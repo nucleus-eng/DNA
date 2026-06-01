@@ -1,0 +1,202 @@
+LOCUS       pOpen-Cx43              3320 bp    DNA     circular SYN 14-JAN-2025
+DEFINITION  synthetic circular DNA
+ACCESSION   .
+VERSION     .
+KEYWORDS    .
+SOURCE      synthetic DNA construct
+  ORGANISM  recombinant plasmid
+REFERENCE   1  (bases 1 to 3320)
+  AUTHORS   SnapGene License
+  TITLE     Direct Submission
+  JOURNAL   Exported Jun 1, 2026 from SnapGene 8.2.2
+            https://www.snapgene.com
+FEATURES             Location/Qualifiers
+     source          1..3320
+                     /mol_type="other DNA"
+                     /organism="recombinant plasmid"
+     primer_bind     1..43
+                     /label=pOpen-3F
+     primer_bind     21..45
+                     /label=pOpen-1F
+     primer_bind     21..43
+                     /label=pOpen-2F
+     misc_feature    64..82
+                     /label=SLiCE-for
+     primer_bind     complement(83..101)
+                     /label=T7 Reverse
+     terminator      97..144
+                     /label=T7 terminator
+                     /note="pLannotate"
+                     /note="/database=snapgene"
+                     /note="/fragment=False"
+                     /note="/identity=100.0"
+                     /note="/match_length=100.0"
+                     /note="/other=terminator"
+     primer_bind     complement(145..165)
+                     /label=M13 rev
+     primer_bind     146..166
+                     /label=pOpen-3F
+     misc_feature    166..180
+                     /label=AarI
+     misc_feature    181..231
+                     /label=spacer
+     rep_origin      232..820
+                     /label=ori
+                     /note="pLannotate"
+                     /note="/database=snapgene"
+                     /note="/fragment=False"
+                     /note="/identity=99.7"
+                     /note="/match_length=100.0"
+                     /note="/other=rep_origin"
+     misc_feature    623..646
+                     /label=BB seq FOR
+     misc_feature    825..844
+                     /label=20bp random sequence
+     misc_feature    complement(845..871)
+                     /label=downstream anneal
+     misc_feature    complement(1005..1033)
+                     /label=pOpen ori anneal REV
+     CDS             complement(1011..1871)
+                     /codon_start=1
+                     /label=AmpR
+                     /note="pLannotate"
+                     /note="/database=snapgene"
+                     /note="/fragment=False"
+                     /note="/identity=99.7"
+                     /note="/match_length=100.0"
+                     /note="/other=CDS"
+                     /translation="MSIQHFRVALIPFFAAFCLPVFAHPETLVKVKDAEDQLGARVGYI
+                     ELDLNSGKILESFRPEERFPMMSTFKVLLCGAVLSRIDAGQEQLGRRIHYSQNDLVEYS
+                     PVTEKHLTDGMTVRELCSAAITMSDNTAANLLLTTIGGPKELTAFLHNMGDHVTRLDRW
+                     EPELNEAIPNDERDTTMPVAMATTLRKLLTGELLTLASRQQLIDWMEADKVAGPLLRSA
+                     LPAGWFIADKSGAGERGSRGIIAALGPDGKPSRIVVIYTTGSQATMDERNRQIAEIGAS
+                     LIKHW"
+     misc_feature    complement(1030..1051)
+                     /label=BB seq REV
+     promoter        complement(1872..1976)
+                     /label=AmpR promoter
+                     /note="pLannotate"
+                     /note="/database=snapgene"
+                     /note="/fragment=False"
+                     /note="/identity=100.0"
+                     /note="/match_length=100.0"
+                     /note="/other=promoter"
+     misc_feature    1977..1991
+                     /label=AarI
+     CDS             complement(1992..2008)
+                     /codon_start=1
+                     /label=lacZ-alpha (fragment)
+                     /note="pLannotate"
+                     /note="/database=snapgene"
+                     /note="/fragment=True"
+                     /note="/identity=100.0"
+                     /note="/match_length=9.8"
+                     /note="/other=CDS"
+                     /translation="TGRRF"
+     primer_bind     1992..2008
+                     /label=M13 fwd
+     terminator      2009..2040
+                     /label=tonB terminator
+                     /note="pLannotate"
+                     /note="/database=snapgene"
+                     /note="/fragment=False"
+                     /note="/identity=96.9"
+                     /note="/match_length=100.0"
+                     /note="/other=terminator"
+     misc_feature    complement(2037..2056)
+                     /label=SLiCE-rev
+     primer_bind     2057..2076
+                     /label=pT7
+     misc_binding    2077..2099
+                     /label=LacO
+     primer_bind     complement(2094..2190)
+                     /label=pOpen-1R
+     misc_feature    2100..2127
+                     /label=UTR1
+     primer_bind     2116..2188
+                     /label=Cx43-1F
+     primer_bind     2116..2188
+                     /label=Cx43-2F
+     primer_bind     complement(2126..2173)
+                     /label=pOpen-3R
+     misc_feature    2128..2135
+                     /label=MC0U-SP
+                     /label=CDS Prefix
+     primer_bind     2134..2175
+                     /label=Cx43-3F
+     primer_bind     2154..2170
+                     /label=M13 fwd
+     misc_feature    2154..2170
+                     /label=From pOpen-MCL1Entry-ccdB
+                     /note="From pOpen-MCL1Entry-ccdB"
+                     /note="/color=white"
+                     /note="/indicates_part=True"
+                     /note="/source=pOpen-MCL1Entry-ccdB"
+     misc_feature    2171..3316
+                     /label=Cx43 (rat)
+     primer_bind     complement(3294..3320)
+                     /label=Cx43-2R
+     primer_bind     complement(join(3312..3320,1..40))
+                     /label=Cx43-3R
+     primer_bind     complement(join(3320,1..20))
+                     /label=M13 rev
+                     /note="common sequencing primer, one of multiple similar 
+                     variants"
+ORIGIN
+        1 atggtcatag ctgtttcctg atgtcaggct cccttataca caggcgatgt tgaagaccac
+       61 gctgaggtgt caatcgtcgg agccgctgag caataactag cataacccct tggggcctct
+      121 aaacgggtct tgaggggttt tttgcatggt catagctgtt tcctgagagc ttggcaggtg
+      181 atgacacaca ttaacaaatt tcgtgaggag tctccagaag aatgccatta atttccatag
+      241 gctccgcccc cctgacgagc atcacaaaaa tcgacgctca agtcagaggt ggcgaaaccc
+      301 gacaggacta taaagatacc aggcgtttcc ccctggaagc tccctcgtgc gctctcctgt
+      361 tccgaccctg ccgcttaccg gatacctgtc cgcctttctc ccttcgggaa gcgtggcgct
+      421 ttctcatagc tcacgctgta ggtatctcag ttcggtgtag gtcgttcgct ccaagctggg
+      481 ctgtgtgcac gaaccccccg ttcagcccga ccgctgcgcc ttatccggta actatcgtct
+      541 tgagtccaac ccggtaagac acgacttatc gccactggca gcagccactg gtaacaggat
+      601 tagcagagcg aggtatgtag gcggtgctac agagttcttg aagtggtggc ctaactacgg
+      661 ctacactaga agaacagtat ttggtatctg cgctctgctg aagccagtta ccttcggaaa
+      721 aagagttggt agctcttgat ccggcaaaca aaccaccgct ggtagcggtg gtttttttgt
+      781 ttgcaagcag cagattacac gcagaaaaaa aggatctcaa gaaggcctac tattagcaac
+      841 aacgatcctt tgatcttttc tacggggtct gacgctcagt ggaacgaaaa ctcacgttaa
+      901 gggattttgg tcatgagatt atcaaaaagg atcttcacct agatcctttt aaattaaaaa
+      961 tgaagtttta aatcaatcta aagtatatat gagtaaactt ggtctgacag ttaccaatgc
+     1021 ttaatcagtg aggcacctat ctcagcgatc tgtctatttc gttcatccat agttgcctga
+     1081 ctccccgtcg tgtagataac tacgatacgg gagggcttac catctggccc cagtgctgca
+     1141 atgataccgc gagaaccacg ctcaccggct ccagatttat cagcaataaa ccagccagcc
+     1201 ggaagggccg agcgcagaag tggtcctgca actttatccg cctccatcca gtctattaat
+     1261 tgttgccggg aagctagagt aagtagttcg ccagttaata gtttgcgcaa cgttgttgcc
+     1321 attgctacag gcatcgtggt gtcacgctcg tcgtttggta tggcttcatt cagctccggt
+     1381 tcccaacgat caaggcgagt tacatgatcc cccatgttgt gcaaaaaagc ggttagctcc
+     1441 ttcggtcctc cgatcgttgt cagaagtaag ttggccgcag tgttatcact catggttatg
+     1501 gcagcactgc ataattctct tactgtcatg ccatccgtaa gatgcttttc tgtgactggt
+     1561 gagtactcaa ccaagtcatt ctgagaatag tgtatgcggc gaccgagttg ctcttgcccg
+     1621 gcgtcaatac gggataatac cgcgccacat agcagaactt taaaagtgct catcattgga
+     1681 aaacgttctt cggggcgaaa actctcaagg atcttaccgc tgttgagatc cagttcgatg
+     1741 taacccactc gtgcacccaa ctgatcttca gcatctttta ctttcaccag cgtttctggg
+     1801 tgagcaaaaa caggaaggca aaatgccgca aaaaagggaa taagggcgac acggaaatgt
+     1861 tgaatactca tactcttcct ttttcaatat tattgaagca tttatcaggg ttattgtctc
+     1921 atgagcggat acatatttga atgtatttag aaaaataaac aaataggggt tccgcgcacc
+     1981 tgcaccagtc agtaaaacga cggccagtag tcaaaagcct acgaccggag gcttttgact
+     2041 tggttcaggt ggagtgtaat acgactcact atagggggaa ttgtgagcgg ataacaatta
+     2101 ataattttgt ttaactttaa gaaggagggt ctctaggagt agtcttcgcc atcgtaaaac
+     2161 gacggccagt atgggtgact ggagtgcctt ggggaagctt ctggacaagg tccaagccta
+     2221 ctccaccgct ggagggaagg tgtggctgtc agtgctcttc atattcagaa tcctgctcct
+     2281 ggggacagct gttgagtcag cttggggtga tgaacagtct gcctttcgct gtaacactca
+     2341 acaacctggc tgcgaaaacg tctgctatga caagtccttc cccatctctc acgtgcgctt
+     2401 ctgggtcctt cagatcatat tcgtgtctgt gcccaccctc ctgtacttgg cccatgtgtt
+     2461 ctatgtgatg aggaaggaag agaagctaaa caagaaagaa gaggagctca aagtggccca
+     2521 gactgacggg gtcaacgtgg agatgcacct gaagcagatt gaaatcaaga agttcaagta
+     2581 cgggattgaa gagcacggca aggtgaaaat gaggggcggc ttgctgagaa cctacatcat
+     2641 cagcatcctc ttcaagtctg tcttcgaggt ggccttcctg ctcatccagt ggtacatcta
+     2701 tgggttcagc ttgagcgcgg tctacacctg caagagagat ccctgccccc accaggtaga
+     2761 ctgcttcctc tcacgtccca cggagaaaac catcttcatc atcttcatgc tggtggtgtc
+     2821 cttggtgtct ctcgctttga acatcattga gctcttctac gtcttcttca aaggcgttaa
+     2881 ggatcgcgtg aagggaagaa gcgatcctta ccacgccacc actggcccac tgagcccatc
+     2941 aaaagactgc ggatctccaa aatacgccta cttcaatggc tgctcctcac caacggctcc
+     3001 actctcgcct atgtctcctc ctgggtacaa gctggttact ggtgacagaa acaattcctc
+     3061 gtgccgcaat tacaacaagc aagctagcga gcaaaactgg gcgaactaca gcgcagagca
+     3121 aaatcgcatg gggcaggccg gaagcaccat ctccaactcg cacgcccagc cgttcgattt
+     3181 ccccgacgac aaccagaatg ccaaaaaagt tgctgctgga catgaactcc agccattagc
+     3241 catcgtggac caacgacctt ccagcagagc cagcagccgc gccagcagca ggcctcggcc
+     3301 tgatgacctg gagatttaac
+//
