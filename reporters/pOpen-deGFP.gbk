@@ -1,0 +1,152 @@
+LOCUS       pOpenv3-deGFP           2789 bp    DNA     circular SYN 03-JUN-2026
+DEFINITION  .
+ACCESSION   .
+VERSION     .
+KEYWORDS    .
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct
+REFERENCE   1  (bases 1 to 2789)
+  AUTHORS   Anton Jackson-Smith
+  TITLE     Direct Submission
+  JOURNAL   Exported Jun 3, 2026 from SnapGene 8.2.2
+            https://www.snapgene.com
+FEATURES             Location/Qualifiers
+     source          1..2789
+                     /mol_type="other DNA"
+                     /organism="synthetic DNA construct"
+     misc_feature    1..15
+                     /label=AarI
+                     /note="color: #a6acb3"
+     primer_bind     16..32
+                     /label=M13 fwd
+                     /note="color: #a020f0; direction: RIGHT"
+     terminator      33..64
+                     /label=tonB terminator
+                     /note="color: #ffffff"
+     misc_feature    complement(61..80)
+                     /label=SLiCE-rev
+                     /note="color: #a6acb3; direction: LEFT"
+     misc_feature    80
+                     /label=BioBrick prefix
+                     /note="color: #a6acb3"
+     misc_feature    81..140
+                     /label=Barcode
+                     /note="color: #75c6a9"
+     misc_feature    141..202
+                     /label=Synthesis_Prefix
+                     /note="color: #c6c9d1"
+     primer_bind     141..160
+                     /label=pT7
+                     /note="color: #85dae9; direction: RIGHT"
+     misc_feature    167..194
+                     /label=UTR1
+                     /note="color: #c6c9d1"
+     misc_feature    190..194
+                     /label=SD
+                     /note="color: #c6c9d1"
+     misc_feature    195..200
+                     /label=BsaI_Bind
+                     /note="color: #d6b295"
+     CDS             203..880
+                     /label=deGFP
+                     /note="color: #ff9ccd; direction: RIGHT"
+     misc_feature    878..895
+                     /label=pOpen MoClo
+                     /note="color: #85dae9"
+     primer_bind     complement(896..914)
+                     /label=T7 Reverse
+                     /note="color: #a020f0; direction: LEFT"
+     primer_bind     896..914
+                     /label=T7Term Fwd
+                     /note="color: black; sequence: CCGCTGAGCAATAACTAGC; added: 
+                     2024-01-14"
+     terminator      910..957
+                     /label=T7 terminator
+                     /note="color: #ffffff"
+     primer_bind     complement(958..978)
+                     /label=M13 rev
+                     /note="color: #a020f0; direction: LEFT"
+     misc_feature    979..993
+                     /label=AarI
+                     /note="color: #a6acb3"
+     misc_feature    994..1044
+                     /label=spacer
+                     /note="color: #a6acb3"
+     misc_feature    1436..1459
+                     /label=BB seq FOR
+                     /note="color: #a6acb3"
+     misc_feature    1610..1637
+                     /label=upstream anneal
+                     /note="color: #a6acb3"
+     misc_feature    1638..1657
+                     /label=20bp random sequence
+                     /note="color: #a6acb3"
+     misc_feature    complement(1658..1684)
+                     /label=downstream anneal
+                     /note="color: #a6acb3; direction: LEFT"
+     misc_feature    complement(1818..1846)
+                     /label=pOpen ori anneal REV
+                     /note="color: #a6acb3; direction: LEFT"
+     CDS             complement(1824..2684)
+                     /label=AmpR
+                     /note="color: #993366; direction: LEFT"
+     primer_bind     1832..1850
+                     /label=pET21aAmpR_fwd
+                     /note="25nm	STD"
+                     /note="color: black; sequence: 
+                     ggctaccacctgctctcgcttaatcagtgaggcacc; added: 2024-01-14"
+     misc_feature    complement(1843..1864)
+                     /label=BB seq REV
+                     /note="color: #a6acb3; direction: LEFT"
+     promoter        complement(2685..2789)
+                     /label=AmpR promoter
+                     /note="color: #ffffff; direction: LEFT"
+ORIGIN
+        1 cacctgcacc agtcagtaaa acgacggcca gtagtcaaaa gcctccgacc ggaggctttt
+       61 gacttggttc aggtggagtg gggcatgtgt acatcgatac atagggataa cagggtaatc
+      121 tgctggactg tcgctcgtga taatacgact cactataggg tctagaaata attttgttta
+      181 actttaagaa ggagggtctc taatggagct tttcactggc gttgttccca tcctggtcga
+      241 gctggacggc gacgtaaacg gccacaagtt cagcgtgtcc ggcgagggcg agggcgatgc
+      301 cacctacggc aagctgaccc tgaagttcat ctgcaccacc ggcaagctgc ccgtgccctg
+      361 gcccaccctc gtgaccaccc tgacctacgg cgtgcagtgc ttcagccgct accccgacca
+      421 catgaagcag cacgacttct tcaagtccgc catgcccgaa ggctacgtcc aggagcgcac
+      481 catcttcttc aaggacgacg gcaactacaa gacccgcgcc gaggtgaagt tcgagggcga
+      541 caccctggtg aaccgcatcg agctgaaggg catcgacttc aaggaggacg gcaacatcct
+      601 ggggcacaag ctggagtaca actacaacag ccacaacgtc tatatcatgg ccgacaagca
+      661 gaagaacggc atcaaggtga acttcaagat ccgccacaac atcgaggacg gcagcgtgca
+      721 gctcgccgac cactaccagc agaacacccc catcggcgac ggccccgtgc tgctgcccga
+      781 caaccactac ctgagcaccc agtccgccct gagcaaagac cccaacgaga agcgcgatca
+      841 catggtcctg ctggagttcg tgaccgccgc cgggatttga agagcttaga gaccgccgct
+      901 gagcaataac tagcataacc ccttggggcc tctaaacggg tcttgagggg ttttttgcat
+      961 ggtcatagct gtttcctgag agcttggcag gtgatgacac acattaacaa atttcgtgag
+     1021 gagtctccag aagaatgcca ttaatttcca taggctccgc ccccctgacg agcatcacaa
+     1081 aaatcgacgc tcaagtcaga ggtggcgaaa cccgacagga ctataaagat accaggcgtt
+     1141 tccccctgga agctccctcg tgcgctctcc tgttccgacc ctgccgctta ccggatacct
+     1201 gtccgccttt ctcccttcgg gaagcgtggc gctttctcat agctcacgct gtaggtatct
+     1261 cagttcggtg taggtcgttc gctccaagct gggctgtgtg cacgaacccc ccgttcagcc
+     1321 cgaccgctgc gccttatccg gtaactatcg tcttgagtcc aacccggtaa gacacgactt
+     1381 atcgccactg gcagcagcca ctggtaacag gattagcaga gcgaggtatg taggcggtgc
+     1441 tacagagttc ttgaagtggt ggcctaacta cggctacact agaagaacag tatttggtat
+     1501 ctgcgctctg ctgaagccag ttaccttcgg aaaaagagtt ggtagctctt gatccggcaa
+     1561 acaaaccacc gctggtagcg gtggtttttt tgtttgcaag cagcagatta cgcgcagaaa
+     1621 aaaaggatct caagaaggcc tactattagc aacaacgatc ctttgatctt ttctacgggg
+     1681 tctgacgctc agtggaacga aaactcacgt taagggattt tggtcatgag attatcaaaa
+     1741 aggatcttca cctagatcct tttaaattaa aaatgaagtt ttaaatcaat ctaaagtata
+     1801 tatgagtaaa cttggtctga cagttaccaa tgcttaatca gtgaggcacc tatctcagcg
+     1861 atctgtctat ttcgttcatc catagttgcc tgactccccg tcgtgtagat aactacgata
+     1921 cgggagggct taccatctgg ccccagtgct gcaatgatac cgcgagaacc acgctcaccg
+     1981 gctccagatt tatcagcaat aaaccagcca gccggaaggg ccgagcgcag aagtggtcct
+     2041 gcaactttat ccgcctccat ccagtctatt aattgttgcc gggaagctag agtaagtagt
+     2101 tcgccagtta atagtttgcg caacgttgtt gccattgcta caggcatcgt ggtgtcacgc
+     2161 tcgtcgtttg gtatggcttc attcagctcc ggttcccaac gatcaaggcg agttacatga
+     2221 tcccccatgt tgtgcaaaaa agcggttagc tccttcggtc ctccgatcgt tgtcagaagt
+     2281 aagttggccg cagtgttatc actcatggtt atggcagcac tgcataattc tcttactgtc
+     2341 atgccatccg taagatgctt ttctgtgact ggtgagtact caaccaagtc attctgagaa
+     2401 tagtgtatgc ggcgaccgag ttgctcttgc ccggcgtcaa tacgggataa taccgcgcca
+     2461 catagcagaa ctttaaaagt gctcatcatt ggaaaacgtt cttcggggcg aaaactctca
+     2521 aggatcttac cgctgttgag atccagttcg atgtaaccca ctcgtgcacc caactgatct
+     2581 tcagcatctt ttactttcac cagcgtttct gggtgagcaa aaacaggaag gcaaaatgcc
+     2641 gcaaaaaagg gaataagggc gacacggaaa tgttgaatac tcatactctt cctttttcaa
+     2701 tattattgaa gcatttatca gggttattgt ctcatgagcg gatacatatt tgaatgtatt
+     2761 tagaaaaata aacaaatagg ggttccgcg
+//

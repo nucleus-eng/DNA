@@ -83,7 +83,7 @@ The `terminators/` directory contains three T7 terminator variants originally de
 
 ### `reporters/` — Protein reporters
 
-The `reporters/` directory contains fluorescent protein and chromoprotein reporter constructs. Includes cjBlue, eforRed, plamGFP, amajLime, gfasPurple, meleRFP, and mmilCFP. Several reporters include a lacO operator insert for lac-regulated expression, and some include a C-terminal His6 tag for downstream purification.
+The `reporters/` directory contains fluorescent protein and chromoprotein reporter constructs. Includes deGFP, cjBlue, eforRed, plamGFP, amajLime, gfasPurple, meleRFP, and mmilCFP. Several reporters include a lacO operator insert for lac-regulated expression, and some include a C-terminal His6 tag for downstream purification.
 
 ---
 
