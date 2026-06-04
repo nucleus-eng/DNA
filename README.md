@@ -21,6 +21,7 @@ DNA/
 ├── terminators/         # T7 terminator variants
 ├── reporters/           # Protein reporter constructs 
 ├── pores/               # passive membrane transport
+├── energy/              # metabolism to boost cytosol performance
 ├── emitters/            # signal emission modules
 └── detectors/
     ├── quorum-sensing/  # Quorum sensing circuit components
@@ -92,6 +93,13 @@ The `reporters/` directory contains fluorescent protein and chromoprotein report
 The `pores/` directory contains passive transport membrane channel proteins for use in synthetic cells. Includes [Cx43 and Cx43-eGFP](https://docs.nucleus.engineering/docs/modules/membrane-pore-cx43/spec/) in pOpen.
 
 ---
+
+### `energy/` — Metabolism modules that generate energy-carrying molecules
+
+The `energy/` directory contains modules that generate energy carrying molecules (e.g., rATP, CP). Includes [PPK](https://docs.nucleus.engineering/docs/modules/energy-ppk/spec/) in pOpen.
+
+---
+
 
 ### `emitters/` — Signal emission modules
 
