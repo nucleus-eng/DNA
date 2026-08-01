@@ -1,0 +1,404 @@
+LOCUS       pET28a-ClpP-CHis        5877 bp ds-DNA     circular     19-DEC-2025
+DEFINITION  .
+KEYWORDS    "creator:SnapGene License" "marker:Tentative pET28 anneal FOR, BB
+            seq FOR, Cole1.FOR"
+FEATURES             Location/Qualifiers
+     RBS             1..33
+                     /label="UTR1"
+                     /ApEinfo_revcolor="#b7e6d7"
+                     /ApEinfo_fwdcolor="#b7e6d7"
+                     /note="label: UTR1 note: note: UTR1 NCBI Feature Key: misc_feature Color: #cc0000 modified by: Andrey Transferred From: U4m - UTR1 Transferred Similarity: 100.00%"
+     RBS             7..29
+                     /label="RBS"
+                     /ApEinfo_revcolor="#b4abac"
+                     /ApEinfo_fwdcolor="#b4abac"
+                     /note="note: efficient ribosome binding site from bacteriophage T7 gene 10 (Olins and Rangwala, 1989)"
+     feature         12..28
+                     /label="T7_transl_en_RBS"
+                     /ApEinfo_revcolor="#faac61"
+                     /ApEinfo_fwdcolor="#faac61"
+                     /note="label: T7_transl_en_RBS"
+     misc_feature    16..35
+                     /label="pET28a Upstream"
+                     /ApEinfo_revcolor="#b4abac"
+                     /ApEinfo_fwdcolor="#b4abac"
+     misc_feature    complement(20..35)
+                     /label="Tentative pET28 anneal FOR"
+                     /ApEinfo_revcolor="#85dae9"
+                     /ApEinfo_fwdcolor="#85dae9"
+                     /note="label: Tentative pET28 anneal FOR"
+     misc_feature    36..36
+                     /label="MC0U-SP"
+                     /ApEinfo_revcolor="#b4abac"
+                     /ApEinfo_fwdcolor="#b4abac"
+                     /note="label: MC0U-SP label: CDS Prefix"
+     CDS             37..657
+                     /label="ATP-dependent protease (clpP)"
+                     /ApEinfo_revcolor="#993366"
+                     /ApEinfo_fwdcolor="#993366"
+                     /note="codon_start: 1 note: ATP-dependent protease (clpP) protein_id: AAA23588.1 transl_table: 11 translation: MSYSGERDNFAPHMALVPMVIEQTSRGERSFDIYSRLLKERVIFLTGQVEDHMANLIVAQMLFLEAENPEKDIYLYINSPGGVITAGMSIYDTMQFIKPDVSTICMGQAASMGAFLLTAGAKGKRFCLPNSRVMIHQPLGGYQGQATDIEIHAREILKVKGRMNELMALHTGQSLEQIERDTERDRFLSAPEAVEYGLVDSILTHRN"
+     misc_feature    189..189
+                     /label="C->T"
+                     /ApEinfo_revcolor="#b4abac"
+                     /ApEinfo_fwdcolor="#b4abac"
+     CDS             658..672
+                     /label="Linker"
+                     /ApEinfo_revcolor="#993366"
+                     /ApEinfo_fwdcolor="#993366"
+                     /note="codon_start: 1 label: Linker transl_table: 1 translation: GGGGS"
+     CDS             673..690
+                     /label="His6"
+                     /ApEinfo_revcolor="#b4abac"
+                     /ApEinfo_fwdcolor="#b4abac"
+                     /note="codon_start: 1 label: His6 transl_table: 1 translation: HHHHHH"
+     misc_feature    697..702
+                     /label="CDS Suffix"
+                     /ApEinfo_revcolor="#b4abac"
+                     /ApEinfo_fwdcolor="#b4abac"
+                     /note="label: CDS Suffix"
+     misc_feature    703..706
+                     /label="BsaI Entry"
+                     /ApEinfo_revcolor="#ffef86"
+                     /ApEinfo_fwdcolor="#ffef86"
+     misc_feature    703..706
+                     /label="CDSEntry ccdB"
+                     /ApEinfo_revcolor="#b4abac"
+                     /ApEinfo_fwdcolor="#b4abac"
+     misc_feature    703..733
+                     /label="pET28a-downstream-homology"
+                     /ApEinfo_revcolor="#b4abac"
+                     /ApEinfo_fwdcolor="#b4abac"
+     CDS             707..720
+                     /label="FG terminal sequence"
+                     /ApEinfo_revcolor="#84b0dc"
+                     /ApEinfo_fwdcolor="#84b0dc"
+                     /note="codon_start: 1 label: FG terminal sequence transl_table: 1 translation: DPAA"
+     misc_feature    707..726
+                     /label="pET28a Downstream"
+                     /ApEinfo_revcolor="#b4abac"
+                     /ApEinfo_fwdcolor="#b4abac"
+     terminator      714..842
+                     /label="T7_terminator"
+                     /ApEinfo_revcolor="#75c6a9"
+                     /ApEinfo_fwdcolor="#75c6a9"
+                     /note="label: T7_terminator"
+     misc_feature    718..720
+                     /label="Stop Codon"
+                     /ApEinfo_revcolor="#ffef86"
+                     /ApEinfo_fwdcolor="#ffef86"
+                     /note="label: Stop Codon"
+     terminator      770..817
+                     /label="T7 terminator"
+                     /ApEinfo_revcolor="#f8d3a9"
+                     /ApEinfo_fwdcolor="#f8d3a9"
+                     /note="label: T7 terminator note: Color: #ffffff NCBI Feature Key: terminator Transferred From: T7_terminator Transferred Similarity: 100.00%"
+     rep_origin      854..1212
+                     /label="f1 ori"
+                     /ApEinfo_revcolor="#85dae9"
+                     /ApEinfo_fwdcolor="#85dae9"
+                     /note="label: f1 ori note: direction: RIGHT note: arrow indicates direction of (+) strand synthesis; color: #ffff00; f1 bacteriophage origin of replication NCBI Feature Key: rep_origin Transferred From: f1_ori_(3) Transferred Similarity: 100.00%"
+     rep_origin      854..1282
+                     /label="f1 ori"
+                     /ApEinfo_revcolor="#85dae9"
+                     /ApEinfo_fwdcolor="#85dae9"
+                     /note="label: f1 ori note: direction: RIGHT note: arrow indicates direction of (+) strand synthesis; color: #ffff00; f1 bacteriophage origin of replication NCBI Feature Key: rep_origin Transferred From: f1_ori_(4) Transferred Similarity: 100.00%"
+     rep_origin      871..1177
+                     /label="F1 ori"
+                     /ApEinfo_revcolor="#9eafd2"
+                     /ApEinfo_fwdcolor="#9eafd2"
+                     /note="label: F1 ori"
+     CDS             complement(1402..2217)
+                     /label="KanR2"
+                     /ApEinfo_revcolor="#b1ff67"
+                     /ApEinfo_fwdcolor="#b1ff67"
+                     /note="codon_start: 1 label: KanR2 transl_table: 1 translation: MSHIQRETSCSRPRLNSNMDADLYGYKWARDNVGQSGATIYRLYGKPDAPELFLKHGKGSVANDVTDEMVRLNWLTEFMPLPTIKHFIRTPDDAWLLTTAIPGKTAFQVLEEYPDSGENIVDALAVFLRRLHSIPVCNCPFNSDRVFRLAQAQSRMNNGLVDASDFDDERNGWPVEQVWKEMHKLLPFSPDSVVTHGDFSLDNLIFDEGKLIGCIDVGRVGIADRYQDLAILWNCLGEFSPSLQKRLFQKYGIDNPDMNKLQFHLMLDEFF*"
+     rep_origin      2263..2945
+                     /label="ColE1 origin"
+                     /ApEinfo_revcolor="#9eafd2"
+                     /ApEinfo_fwdcolor="#9eafd2"
+                     /note="label: ColE1 origin"
+     misc_feature    2308..2334
+                     /label="downstream anneal"
+                     /ApEinfo_revcolor="#b4abac"
+                     /ApEinfo_fwdcolor="#b4abac"
+                     /note="label: downstream anneal"
+     origin          2323..2942
+                     /label="pBR322_origin"
+                     /ApEinfo_revcolor="#c6c9d1"
+                     /ApEinfo_fwdcolor="#c6c9d1"
+                     /note="label: pBR322_origin"
+     misc_feature    2330..2348
+                     /label="Predicted Terminator"
+                     /ApEinfo_revcolor="#b4abac"
+                     /ApEinfo_fwdcolor="#b4abac"
+                     /note="note: Predicted with ARNold; deltaG = -9.00"
+     misc_feature    2335..2362
+                     /label="upstream anneal"
+                     /ApEinfo_revcolor="#b4abac"
+                     /ApEinfo_fwdcolor="#b4abac"
+                     /note="label: upstream anneal"
+     promoter        2339..2367
+                     /label="RNAII promoter"
+                     /ApEinfo_revcolor="#f58a5e"
+                     /ApEinfo_fwdcolor="#f58a5e"
+                     /note="label: RNAII promoter note: Color: #ffffff NCBI Feature Key: promoter NCBI Join Type: join Transferred From: RNAII_promoter Transferred Similarity: 100.00%"
+     rep_origin      2339..2927
+                     /label="ori"
+                     /ApEinfo_revcolor="#ffff00"
+                     /ApEinfo_fwdcolor="#ffff00"
+                     /note="direction: RIGHT note: high-copy-number ColE1/pMB1/pBR322/pUC origin of replication"
+     misc_RNA        2375..2927
+                     /label="RNAII transcript (complementary strand)"
+                     /ApEinfo_revcolor="#b4abac"
+                     /ApEinfo_fwdcolor="#b4abac"
+                     /note="note: RNAII transcript (complementary strand)"
+     misc_RNA        complement(2378..2485)
+                     /label="RNAI transcript"
+                     /ApEinfo_revcolor="#b4abac"
+                     /ApEinfo_fwdcolor="#b4abac"
+                     /note="note: RNAI transcript"
+     misc_feature    2388..2406
+                     /label="Predicted Terminator"
+                     /ApEinfo_revcolor="#b4abac"
+                     /ApEinfo_fwdcolor="#b4abac"
+                     /note="note: Predicted with ARNold; deltaG = -14.00"
+     promoter        complement(2492..2521)
+                     /label="RNA I promoter"
+                     /ApEinfo_revcolor="#c6c9d1"
+                     /ApEinfo_fwdcolor="#c6c9d1"
+                     /note="label: RNA I promoter note: Color: #ffffff NCBI Feature Key: promoter NCBI Join Type: join Transferred From: RNA_I_promoter Transferred Similarity: 100.00%"
+     misc_feature    2513..2536
+                     /label="BB seq FOR"
+                     /ApEinfo_revcolor="#b4abac"
+                     /ApEinfo_fwdcolor="#b4abac"
+                     /note="label: BB seq FOR"
+     primer_bind     complement(2549..2570)
+                     /label="ASS_mc1chk.cole1.REV"
+                     /ApEinfo_revcolor="#faac61"
+                     /ApEinfo_fwdcolor="#faac61"
+                     /note="label: ASS_mc1chk.cole1.REV note: Sequence: TGGTAACAGGATTAGCAGAGCG %GC: 50.0 Transferred From: ASS_mc1chk.cole1.REV Transferred Similarity: 100.00%"
+     misc_feature    2822..2841
+                     /label="Predicted Terminator"
+                     /ApEinfo_revcolor="#b4abac"
+                     /ApEinfo_fwdcolor="#b4abac"
+                     /note="note: Predicted with ARNold; deltaG = -8.2"
+     primer_bind     2849..2867
+                     /label="Cole1.FOR"
+                     /ApEinfo_revcolor="#f58a5e"
+                     /ApEinfo_fwdcolor="#f58a5e"
+                     /note="label: Cole1.FOR note: Sequence: TAGTCCTGTCGGGTTTCGC Hairpin Tm: 39.1 Tm: 59.4 Self Dimer Tm: None %GC: 57.9 created by: primer3 Transferred From: ASS_Cole1.FOR Transferred Similarity: 100.00%"
+     terminator      2931..2974
+                     /label="rop/bom terminator"
+                     /ApEinfo_revcolor="#b4abac"
+                     /ApEinfo_fwdcolor="#b4abac"
+     misc_binding    3014..3022
+                     /label="dnaA binding site"
+                     /ApEinfo_revcolor="#b4abac"
+                     /ApEinfo_fwdcolor="#b4abac"
+                     /note="bound_moiety: dnaA"
+     primer_bind     3028..3048
+                     /label="Part.Seq.REV"
+                     /ApEinfo_revcolor="#ffef86"
+                     /ApEinfo_fwdcolor="#ffef86"
+                     /note="label: Part.Seq.REV note: Sequence: TTACCGCCTTTGAGTGAGCTG Hairpin Tm: None Tm: 60.6 Self Dimer Tm: None %GC: 52.4 created by: primer3 modified by: andrey Transferred From: Part.Seq.REV Transferred Similarity: 100.00%"
+     misc_feature    3047..3110
+                     /label="L-strand Y effector site"
+                     /ApEinfo_revcolor="#b4abac"
+                     /ApEinfo_fwdcolor="#b4abac"
+                     /note="note: L-strand Y effector site"
+     misc_feature    3296..3452
+                     /label="H-strand Y effector site"
+                     /ApEinfo_revcolor="#b4abac"
+                     /ApEinfo_fwdcolor="#b4abac"
+                     /note="note: H-strand Y effector site"
+     gene            complement(3357..3548)
+                     /label="rop"
+                     /ApEinfo_revcolor="#b4abac"
+                     /ApEinfo_fwdcolor="#b4abac"
+                     /note="gene: rop"
+     feature         complement(3357..3548)
+                     /label="ROP"
+                     /ApEinfo_revcolor="#d6b295"
+                     /ApEinfo_fwdcolor="#d6b295"
+                     /note="direction: LEFT label: ROP"
+     CDS             complement(3357..3548)
+                     /label="rop"
+                     /ApEinfo_revcolor="#d59687"
+                     /ApEinfo_fwdcolor="#d59687"
+                     /note="label: rop note: Transferred Translation: MTKQEKTALNMARFIRSQTLTLLEKLNELDADEQADICESLHDHADELYRSCLARFGDDGENL Color: #993366 modified by: Andrey Transferred From: rop Transferred Similarity: 100.00%"
+     RBS             3549..3558
+                     /label="RBS"
+                     /ApEinfo_revcolor="#b4abac"
+                     /ApEinfo_fwdcolor="#b4abac"
+     misc_feature    3554..3569
+                     /label="Predicted Terminator"
+                     /ApEinfo_revcolor="#b4abac"
+                     /ApEinfo_fwdcolor="#b4abac"
+                     /note="note: Predicted terminator (ARNold)"
+     misc_feature    3559..3594
+                     /label="Conserved"
+                     /ApEinfo_revcolor="#b4abac"
+                     /ApEinfo_fwdcolor="#b4abac"
+     misc_feature    complement(3624..3642)
+                     /label="ROP calculated promoter"
+                     /ApEinfo_revcolor="#3366ff"
+                     /ApEinfo_fwdcolor="#3366ff"
+     gene            complement(4023..4298)
+                     /label="tet (576 - 851)"
+                     /ApEinfo_revcolor="#faac61"
+                     /ApEinfo_fwdcolor="#faac61"
+                     /note="label: tet (576 - 851)"
+     CDS             complement(4357..5439)
+                     /label="lacI"
+                     /ApEinfo_revcolor="#993366"
+                     /ApEinfo_fwdcolor="#993366"
+                     /note="codon_start: 1 gene: lacI note: The lac repressor binds to the lac operator to inhibit transcription in E. coli. This inhibition can be relieved by adding lactose or isopropyl-β-D-thiogalactopyranoside (IPTG). product: lac repressor transl_table: 1 translation: VKPVTLYDVAEYAGVSYQTVSRVVNQASHVSAKTREKVEAAMAELNYIPNRVAQQLAGKQSLLIGVATSSLALHAPSQIVAAIKSRADQLGASVVVSMVERSGVEACKAAVHNLLAQRVSGLIINYPLDDQDAIAVEAACTNVPALFLDVSDQTPINSIIFSHEDGTRLGVEHLVALGHQQIALLAGPLSSVSARLRLAGWHKYLTRNQIQPIAEREGDWSAMSGFQQTMQMLNEGIVPTAMLVANDQMALGAMRAITESGLRVGADISVVGYDDTEDSSCYIPPLTTIKQDFRLLGQTSVDRLLQLSQGQAVKGNQLLPVSLVKRKTTLAPNTQTASPRALADSLMQLARQVSRLESGQ*"
+     regulatory      complement(4357..5448)
+                     /label="lacI"
+                     /ApEinfo_revcolor="#d59687"
+                     /ApEinfo_fwdcolor="#d59687"
+                     /note="label: lacI"
+     promoter        complement(5440..5517)
+                     /label="lacI promoter"
+                     /ApEinfo_revcolor="#9eafd2"
+                     /ApEinfo_fwdcolor="#9eafd2"
+                     /note="label: lacI promoter note: Color: #ffffff NCBI Feature Key: promoter Transferred From: lacI_promoter Transferred Similarity: 100.00%"
+     gene            complement(5531..5794)
+                     /label="tet (300 - 563)"
+                     /ApEinfo_revcolor="#faac61"
+                     /ApEinfo_fwdcolor="#faac61"
+                     /note="label: tet (300 - 563)"
+     misc_feature    5795..5825
+                     /label="pET28a-upstream-homology"
+                     /ApEinfo_revcolor="#b4abac"
+                     /ApEinfo_fwdcolor="#b4abac"
+     promoter        5826..5844
+                     /label="T7_promoter"
+                     /ApEinfo_revcolor="#f8d3a9"
+                     /ApEinfo_fwdcolor="#f8d3a9"
+                     /note="label: T7_promoter"
+     primer_bind     5826..5845
+                     /label="T7"
+                     /ApEinfo_revcolor="#85dae9"
+                     /ApEinfo_fwdcolor="#85dae9"
+                     /note="label: T7"
+     regulatory      5844..5871
+                     /label="lacO"
+                     /ApEinfo_revcolor="#b4abac"
+                     /ApEinfo_fwdcolor="#b4abac"
+                     /note="label: lacO"
+     misc_binding    5845..5867
+                     /label="LacO"
+                     /ApEinfo_revcolor="#84b0dc"
+                     /ApEinfo_fwdcolor="#84b0dc"
+                     /note="label: LacO"
+     protein_bind    5845..5869
+                     /label="lac operator"
+                     /ApEinfo_revcolor="#75c6a9"
+                     /ApEinfo_fwdcolor="#75c6a9"
+                     /note="bound_moiety: lac repressor encoded by lacI note: The lac repressor binds to the lac operator to inhibit transcription in E. coli. This inhibition can be relieved by adding lactose or isopropyl-β-D-thiogalactopyranoside (IPTG)."
+     protein_bind    5849..5865
+                     /label="lac operator"
+                     /ApEinfo_revcolor="#d59687"
+                     /ApEinfo_fwdcolor="#d59687"
+                     /note="label: lac operator note: bound_moiety: lac repressor encoded by lacI note: The lac repressor binds to the lac operator to inhibit transcription in E. coli. This inhibition can be relieved by adding lactose or isopropyl-beta-D-thiogalactopyranoside (IPTG).; color: #31849b NCBI Feature Key: protein_bind Transferred From: lac_operator Transferred Similarity: 100.00%"
+ORIGIN
+        1 aataattttg tttaacttta agaaggagat ataccaatgt catacagcgg cgaacgagat
+       61 aactttgcac cccatatggc gctggtgccg atggtcattg aacagacctc acgcggtgag
+      121 cgctcttttg atatctattc tcgtctactt aaggaacgcg tcatttttct gactggccag
+      181 gttgaagaTc acatggctaa cctgattgtg gcgcagatgc tgttcctgga agcggaaaac
+      241 ccagaaaaag atatctatct gtacattaac tccccaggcg gggtgatcac tgccgggatg
+      301 tctatctatg acaccatgca gtttatcaag cctgatgtca gcaccatctg tatgggccag
+      361 gcggcctcga tgggcgcttt cttgctgacc gcaggggcaa aaggtaaacg tttttgcctg
+      421 ccgaattcgc gcgtgatgat tcaccaaccg ttgggcggct accagggcca ggcgaccgat
+      481 atcgaaattc atgcccgtga aattctgaaa gttaaagggc gcatgaatga acttatggcg
+      541 cttcatacgg gtcaatcatt agaacagatt gaacgtgata ccgagcgcga tcgcttcctt
+      601 tccgcccctg aagcggtgga atacggtctg gtcgattcga ttctgaccca tcgtaatgga
+      661 ggcggtggat ctcaccatca ccaccatcat tgataatgaa gaGCTTgatc cggctgctaa
+      721 caaagcccga aaggaagctg agttggctgc tgccaccgct gagcaataac tagcataacc
+      781 ccttggggcc tctaaacggg tcttgagggg ttttttgctg aaaggaggaa ctatatccgg
+      841 attggcgaat gggacgcgcc ctgtagcggc gcattaagcg cggcgggtgt ggtggttacg
+      901 cgcagcgtga ccgctacact tgccagcgcc ctagcgcccg ctcctttcgc tttcttccct
+      961 tcctttctcg ccacgttcgc cggctttccc cgtcaagctc taaatcgggg gctcccttta
+     1021 gggttccgat ttagtgcttt acggcacctc gaccccaaaa aacttgatta gggtgatggt
+     1081 tcacgtagtg ggccatcgcc ctgatagacg gtttttcgcc ctttgacgtt ggagtccacg
+     1141 ttctttaata gtggactctt gttccaaact ggaacaacac tcaaccctat ctcggtctat
+     1201 tcttttgatt tataagggat tttgccgatt tcggcctatt ggttaaaaaa tgagctgatt
+     1261 taacaaaaat ttaacgcgaa ttttaacaaa atattaacgt ttacaatttc aggtggcact
+     1321 tttcggggaa atgtgcgcgg aacccctatt tgtttatttt tctaaataca ttcaaatatg
+     1381 tatccgctca tgaattaatt cttagaaaaa ctcatcgagc atcaaatgaa actgcaattt
+     1441 attcatatca ggattatcaa taccatattt ttgaaaaagc cgtttctgta atgaaggaga
+     1501 aaactcaccg aggcagttcc ataggatggc aagatcctgg tatcggtctg cgattccgac
+     1561 tcgtccaaca tcaatacaac ctattaattt cccctcgtca aaaataaggt tatcaagtga
+     1621 gaaatcacca tgagtgacga ctgaatccgg tgagaatggc aaaagtttat gcatttcttt
+     1681 ccagacttgt tcaacaggcc agccattacg ctcgtcatca aaatcactcg catcaaccaa
+     1741 accgttattc attcgtgatt gcgcctgagc gagacgaaat acgcgatcgc tgttaaaagg
+     1801 acaattacaa acaggaatcg aatgcaaccg gcgcaggaac actgccagcg catcaacaat
+     1861 attttcacct gaatcaggat attcttctaa tacctggaat gctgttttcc cggggatcgc
+     1921 agtggtgagt aaccatgcat catcaggagt acggataaaa tgcttgatgg tcggaagagg
+     1981 cataaattcc gtcagccagt ttagtctgac catctcatct gtaacatcat tggcaacgct
+     2041 acctttgcca tgtttcagaa acaactctgg cgcatcgggc ttcccataca atcgatagat
+     2101 tgtcgcacct gattgcccga cattatcgcg agcccattta tacccatata aatcagcatc
+     2161 catgttggaa tttaatcgcg gcctagagca agacgtttcc cgttgaatat ggctcataac
+     2221 accccttgta ttactgttta tgtaagcaga cagttttatt gttcatgacc aaaatccctt
+     2281 aacgtgagtt ttcgttccac tgagcgtcag accccgtaga aaagatcaaa ggatcttctt
+     2341 gagatccttt ttttctgcgc gtaatctgct gcttgcaaac aaaaaaacca ccgctaccag
+     2401 cggtggtttg tttgccggat caagagctac caactctttt tccgaaggta actggcttca
+     2461 gcagagcgca gataccaaat actgtccttc tagtgtagcc gtagttaggc caccacttca
+     2521 agaactctgt agcaccgcct acatacctcg ctctgctaat cctgttacca gtggctgctg
+     2581 ccagtggcga taagtcgtgt cttaccgggt tggactcaag acgatagtta ccggataagg
+     2641 cgcagcggtc gggctgaacg gggggttcgt gcacacagcc cagcttggag cgaacgacct
+     2701 acaccgaact gagataccta cagcgtgagc tatgagaaag cgccacgctt cccgaaggga
+     2761 gaaaggcgga caggtatccg gtaagcggca gggtcggaac aggagagcgc acgagggagc
+     2821 ttccaggggg aaacgcctgg tatctttata gtcctgtcgg gtttcgccac ctctgacttg
+     2881 agcgtcgatt tttgtgatgc tcgtcagggg ggcggagcct atggaaaaac gccagcaacg
+     2941 cggccttttt acggttcctg gccttttgct ggccttttgc tcacatgttc tttcctgcgt
+     3001 tatcccctga ttctgtggat aaccgtatta ccgcctttga gtgagctgat accgctcgcc
+     3061 gcagccgaac gaccgagcgc agcgagtcag tgagcgagga agcggaagag cgcctgatgc
+     3121 ggtattttct ccttacgcat ctgtgcggta tttcacaccg catatatggt gcactctcag
+     3181 tacaatctgc tctgatgccg catagttaag ccagtataca ctccgctatc gctacgtgac
+     3241 tgggtcatgg ctgcgccccg acacccgcca acacccgctg acgcgccctg acgggcttgt
+     3301 ctgctcccgg catccgctta cagacaagct gtgaccgtct ccgggagctg catgtgtcag
+     3361 aggttttcac cgtcatcacc gaaacgcgcg aggcagctgc ggtaaagctc atcagcgtgg
+     3421 tcgtgaagcg attcacagat gtctgcctgt tcatccgcgt ccagctcgtt gagtttctcc
+     3481 agaagcgtta atgtctggct tctgataaag cgggccatgt taagggcggt tttttcctgt
+     3541 ttggtcactg atgcctccgt gtaaggggga tttctgttca tgggggtaat gataccgatg
+     3601 aaacgagaga ggatgctcac gatacgggtt actgatgatg aacatgcccg gttactggaa
+     3661 cgttgtgagg gtaaacaact ggcggtatgg atgcggcggg accagagaaa aatcactcag
+     3721 ggtcaatgcc agcgcttcgt taatacagat gtaggtgttc cacagggtag ccagcagcat
+     3781 cctgcgatgc agatccggaa cataatggtg cagggcgctg acttccgcgt ttccagactt
+     3841 tacgaaacac ggaaaccgaa gaccattcat gttgttgctc aggtcgcaga cgttttgcag
+     3901 cagcagtcgc ttcacgttcg ctcgcgtatc ggtgattcat tctgctaacc agtaaggcaa
+     3961 ccccgccagc ctagccgggt cctcaacgac aggagcacga tcatgcgcac ccgtggggcc
+     4021 gccatgccgg cgataatggc ctgcttctcg ccgaaacgtt tggtggcggg accagtgacg
+     4081 aaggcttgag cgagggcgtg caagattccg aataccgcaa gcgacaggcc gatcatcgtc
+     4141 gcgctccagc gaaagcggtc ctcgccgaaa atgacccaga gcgctgccgg cacctgtcct
+     4201 acgagttgca tgataaagaa gacagtcata agtgcggcga cgatagtcat gccccgcgcc
+     4261 caccggaagg agctgactgg gttgaaggct ctcaagggca tcggtcgaga tcccggtgcc
+     4321 taatgagtga gctaacttac attaattgcg ttgcgctcac tgcccgcttt ccagtcggga
+     4381 aacctgtcgt gccagctgca ttaatgaatc ggccaacgcg cggggagagg cggtttgcgt
+     4441 attgggcgcc agggtggttt ttcttttcac cagtgagacg ggcaacagct gattgccctt
+     4501 caccgcctgg ccctgagaga gttgcagcaa gcggtccacg ctggtttgcc ccagcaggcg
+     4561 aaaatcctgt ttgatggtgg ttaacggcgg gatataacat gagctgtctt cggtatcgtc
+     4621 gtatcccact accgagatat ccgcaccaac gcgcagcccg gactcggtaa tggcgcgcat
+     4681 tgcgcccagc gccatctgat cgttggcaac cagcatcgca gtgggaacga tgccctcatt
+     4741 cagcatttgc atggtttgtt gaaaaccgga catggcactc cagtcgcctt cccgttccgc
+     4801 tatcggctga atttgattgc gagtgagata tttatgccag ccagccagac gcagacgcgc
+     4861 cgagacagaa cttaatgggc ccgctaacag cgcgatttgc tggtgaccca atgcgaccag
+     4921 atgctccacg cccagtcgcg taccgtcttc atgggagaaa ataatactgt tgatgggtgt
+     4981 ctggtcagag acatcaagaa ataacgccgg aacattagtg caggcagctt ccacagcaat
+     5041 ggcatcctgg tcatccagcg gatagttaat gatcagccca ctgacgcgtt gcgcgagaag
+     5101 attgtgcacc gccgctttac aggcttcgac gccgcttcgt tctaccatcg acaccaccac
+     5161 gctggcaccc agttgatcgg cgcgagattt aatcgccgcg acaatttgcg acggcgcgtg
+     5221 cagggccaga ctggaggtgg caacgccaat cagcaacgac tgtttgcccg ccagttgttg
+     5281 tgccacgcgg ttgggaatgt aattcagctc cgccatcgcc gcttccactt tttcccgcgt
+     5341 tttcgcagaa acgtggctgg cctggttcac cacgcgggaa acggtctgat aagagacacc
+     5401 ggcatactct gcgacatcgt ataacgttac tggtttcaca ttcaccaccc tgaattgact
+     5461 ctcttccggg cgctatcatg ccataccgcg aaaggttttg cgccattcga tggtgtccgg
+     5521 gatctcgacg ctctccctta tgcgactcct gcattaggaa gcagcccagt agtaggttga
+     5581 ggccgttgag caccgccgcc gcaaggaatg gtgcatgcaa ggagatggcg cccaacagtc
+     5641 ccccggccac ggggcctgcc accataccca cgccgaaaca agcgctcatg agcccgaagt
+     5701 ggcgagcccg atcttcccca tcggtgatgt cggcgatata ggcgccagca accgcacctg
+     5761 tggcgccggt gatgccggcc acgatgcgtc cggcgtagag gatcgagatc tcgatcccgc
+     5821 gaaattaata cgactcacta taggggaatt gtgagcggat aacaattccc ctctaga
+//

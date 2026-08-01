@@ -1,0 +1,135 @@
+LOCUS       pOpen-pT7-sspB-CHis     2620 bp ds-DNA     circular     19-DEC-2025
+DEFINITION  .
+KEYWORDS    "creator:SnapGene License" "marker:AmpR"
+FEATURES             Location/Qualifiers
+     CDS             complement(191..1051)
+                     /label="AmpR"
+                     /ApEinfo_revcolor="#b7e6d7"
+                     /ApEinfo_fwdcolor="#b7e6d7"
+                     /note="codon_start: 1 label: AmpR note: pLannotate note: /database=snapgene note: /fragment=False note: /identity=99.7 note: /match_length=100.0 note: /other=CDS transl_table: 1 translation: MSIQHFRVALIPFFAAFCLPVFAHPETLVKVKDAEDQLGARVGYIELDLNSGKILESFRPEERFPMMSTFKVLLCGAVLSRIDAGQEQLGRRIHYSQNDLVEYSPVTEKHLTDGMTVRELCSAAITMSDNTAANLLLTTIGGPKELTAFLHNMGDHVTRLDRWEPELNEAIPNDERDTTMPVAMATTLRKLLTGELLTLASRQQLIDWMEADKVAGPLLRSALPAGWFIADKSGAGERGSRGIIAALGPDGKPSRIVVIYTTGSQATMDERNRQIAEIGASLIKHW*"
+     promoter        complement(1052..1156)
+                     /label="AmpR promoter"
+                     /ApEinfo_revcolor="#b7e6d7"
+                     /ApEinfo_fwdcolor="#b7e6d7"
+                     /note="label: AmpR promoter note: pLannotate note: /database=snapgene note: /fragment=False note: /identity=100.0 note: /match_length=100.0 note: /other=promoter"
+     CDS             complement(1172..1188)
+                     /label="lacZα (fragment)"
+                     /ApEinfo_revcolor="#993366"
+                     /ApEinfo_fwdcolor="#993366"
+                     /note="codon_start: 1 label: lacZα (fragment) note: pLannotate note: /database=snapgene note: /fragment=True note: /identity=100.0 note: /match_length=9.8 note: /other=CDS transl_table: 1 translation: TGRRF"
+     terminator      1189..1220
+                     /label="tonB terminator"
+                     /ApEinfo_revcolor="#b7e6d7"
+                     /ApEinfo_fwdcolor="#b7e6d7"
+                     /note="label: tonB terminator note: pLannotate note: /database=snapgene note: /fragment=False note: /identity=96.9 note: /match_length=100.0 note: /other=terminator"
+     misc_feature    1237..1240
+                     /label="MC1-TU-L"
+                     /ApEinfo_revcolor="#b4abac"
+                     /ApEinfo_fwdcolor="#b4abac"
+                     /note="label: MC1-TU-L"
+     misc_feature    1241..1251
+                     /label="CAST 0 [TAAC]"
+                     /ApEinfo_revcolor="#b4abac"
+                     /ApEinfo_fwdcolor="#b4abac"
+                     /note="label: CAST 0 [TAAC]"
+     primer_bind     1252..1271
+                     /label="pT7"
+                     /ApEinfo_revcolor="#a020f0"
+                     /ApEinfo_fwdcolor="#a020f0"
+                     /note="label: pT7"
+     misc_feature    1272..1299
+                     /label="UTR1"
+                     /ApEinfo_revcolor="#b4abac"
+                     /ApEinfo_fwdcolor="#b4abac"
+                     /note="label: UTR1"
+     misc_feature    1300..1305
+                     /label="BsaI_Bind"
+                     /ApEinfo_revcolor="#b4abac"
+                     /ApEinfo_fwdcolor="#b4abac"
+                     /note="label: BsaI_Bind"
+     misc_feature    1300..1307
+                     /label="MC0U-SP"
+                     /ApEinfo_revcolor="#b4abac"
+                     /ApEinfo_fwdcolor="#b4abac"
+                     /note="label: MC0U-SP label: CDS Prefix"
+     gene            1308..1802
+                     /label="sspB"
+                     /ApEinfo_revcolor="#b4abac"
+                     /ApEinfo_fwdcolor="#b4abac"
+                     /note="gene: sspB"
+     CDS             1308..1802
+                     /label="sspB"
+                     /ApEinfo_revcolor="#993366"
+                     /ApEinfo_fwdcolor="#993366"
+                     /note="codon_start: 1 gene: sspB product: stringent starvation protein protein_id: AAA24650.1 transl_table: 11 translation: MDLSQLTPRRPYLLRAFYEWLLDNQLTPHLVVDVTLPGVQVPMEYARDGQIVLNIAPRAVGNLELANDEVRFNARFGGIPRQVSVPLAAVLAIYARENGAGTMFEPEAAYDEDTSIMNDEEASADNETVMSVIDGDKPDHDDDTHPDDEPPQPPRGGRPALRVVK"
+     CDS             1803..1817
+                     /label="Linker"
+                     /ApEinfo_revcolor="#993366"
+                     /ApEinfo_fwdcolor="#993366"
+                     /note="codon_start: 1 label: Linker transl_table: 1 translation: GGGGS"
+     CDS             1818..1835
+                     /label="His6"
+                     /ApEinfo_revcolor="#b4abac"
+                     /ApEinfo_fwdcolor="#b4abac"
+                     /note="codon_start: 1 label: His6 transl_table: 1 translation: HHHHHH"
+     misc_feature    1842..1859
+                     /label="CDS Suffix"
+                     /ApEinfo_revcolor="#b4abac"
+                     /ApEinfo_fwdcolor="#b4abac"
+                     /note="label: CDS Suffix"
+     terminator      1897..1944
+                     /label="T7 terminator"
+                     /ApEinfo_revcolor="#b7e6d7"
+                     /ApEinfo_fwdcolor="#b7e6d7"
+                     /note="label: T7 terminator note: pLannotate note: /database=snapgene note: /fragment=False note: /identity=100.0 note: /match_length=100.0 note: /other=terminator"
+     rep_origin      2032..2620
+                     /label="ori"
+                     /ApEinfo_revcolor="#ffff00"
+                     /ApEinfo_fwdcolor="#ffff00"
+                     /note="label: ori note: pLannotate note: /database=snapgene note: /fragment=False note: /identity=99.7 note: /match_length=100.0 note: /other=rep_origin"
+ORIGIN
+        1 gaaggcctac tattagcaac aacgatcctt tgatcttttc tacggggtct gacgctcagt
+       61 ggaacgaaaa ctcacgttaa gggattttgg tcatgagatt atcaaaaagg atcttcacct
+      121 agatcctttt aaattaaaaa tgaagtttta aatcaatcta aagtatatat gagtaaactt
+      181 ggtctgacag ttaccaatgc ttaatcagtg aggcacctat ctcagcgatc tgtctatttc
+      241 gttcatccat agttgcctga ctccccgtcg tgtagataac tacgatacgg gagggcttac
+      301 catctggccc cagtgctgca atgataccgc gagaaccacg ctcaccggct ccagatttat
+      361 cagcaataaa ccagccagcc ggaagggccg agcgcagaag tggtcctgca actttatccg
+      421 cctccatcca gtctattaat tgttgccggg aagctagagt aagtagttcg ccagttaata
+      481 gtttgcgcaa cgttgttgcc attgctacag gcatcgtggt gtcacgctcg tcgtttggta
+      541 tggcttcatt cagctccggt tcccaacgat caaggcgagt tacatgatcc cccatgttgt
+      601 gcaaaaaagc ggttagctcc ttcggtcctc cgatcgttgt cagaagtaag ttggccgcag
+      661 tgttatcact catggttatg gcagcactgc ataattctct tactgtcatg ccatccgtaa
+      721 gatgcttttc tgtgactggt gagtactcaa ccaagtcatt ctgagaatag tgtatgcggc
+      781 gaccgagttg ctcttgcccg gcgtcaatac gggataatac cgcgccacat agcagaactt
+      841 taaaagtgct catcattgga aaacgttctt cggggcgaaa actctcaagg atcttaccgc
+      901 tgttgagatc cagttcgatg taacccactc gtgcacccaa ctgatcttca gcatctttta
+      961 ctttcaccag cgtttctggg tgagcaaaaa caggaaggca aaatgccgca aaaaagggaa
+     1021 taagggcgac acggaaatgt tgaatactca tactcttcct ttttcaatat tattgaagca
+     1081 tttatcaggg ttattgtctc atgagcggat acatatttga atgtatttag aaaaataaac
+     1141 aaataggggt tccgcgcacc tgcaccagtc agtaaaacga cggccagtag tcaaaagcct
+     1201 acgaccggag gcttttgact tggttcaggt ggagtgggag cgtctcataa ctaatacgac
+     1261 tcactatagg gaataatttt gtttaacttt aagaaggagg gtctctaatg gatttgtcac
+     1321 agctaacacc acgtcgtccc tatctgctgc gtgcattcta tgagtggttg ctggataacc
+     1381 agctcacgcc gcacctggtg gtggatgtga cgctccctgg cgtgcaggtt cctatggaat
+     1441 atgcgcgtga cgggcaaatc gtactcaaca ttgcgccgcg tgctgtcggc aatctggaac
+     1501 tggcgaatga tgaggtgcgc tttaacgcgc gctttggtgg cattccgcgt caggtttctg
+     1561 tgccgctggc tgccgtgctg gctatctacg cccgtgaaaa tggcgcaggc acgatgtttg
+     1621 agcctgaagc tgcctacgat gaagatacca gcatcatgaa tgatgaagag gcatcggcag
+     1681 acaacgaaac cgttatgtcg gttattgatg gcgacaagcc agatcacgat gatgacactc
+     1741 atcctgacga tgaacctccg cagccaccac gcggtggtcg accggcatta cgcgttgtga
+     1801 agggaggcgg tggatctcac catcaccacc atcattgata atgaagagct tagagaccgc
+     1861 gctgaggtgt caatcgtcgg agccgctgag caataactag cataacccct tggggcctct
+     1921 aaacgggtct tgaggggttt tttgcatggt catagctgtt tcctgagagc ttggcaggtg
+     1981 atgacacaca ttaacaaatt tcgtgaggag tctccagaag aatgccatta atttccatag
+     2041 gctccgcccc cctgacgagc atcacaaaaa tcgacgctca agtcagaggt ggcgaaaccc
+     2101 gacaggacta taaagatacc aggcgtttcc ccctggaagc tccctcgtgc gctctcctgt
+     2161 tccgaccctg ccgcttaccg gatacctgtc cgcctttctc ccttcgggaa gcgtggcgct
+     2221 ttctcatagc tcacgctgta ggtatctcag ttcggtgtag gtcgttcgct ccaagctggg
+     2281 ctgtgtgcac gaaccccccg ttcagcccga ccgctgcgcc ttatccggta actatcgtct
+     2341 tgagtccaac ccggtaagac acgacttatc gccactggca gcagccactg gtaacaggat
+     2401 tagcagagcg aggtatgtag gcggtgctac agagttcttg aagtggtggc ctaactacgg
+     2461 ctacactaga agaacagtat ttggtatctg cgctctgctg aagccagtta ccttcggaaa
+     2521 aagagttggt agctcttgat ccggcaaaca aaccaccgct ggtagcggtg gtttttttgt
+     2581 ttgcaagcag cagattacac gcagaaaaaa aggatctcaa
+//

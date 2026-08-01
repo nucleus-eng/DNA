@@ -1,0 +1,136 @@
+LOCUS       pOpen-pT7-ClpP-CHis     2746 bp ds-DNA     circular     19-DEC-2025
+DEFINITION  .
+KEYWORDS    "creator:SnapGene License" "marker:AmpR"
+FEATURES             Location/Qualifiers
+     promoter        complement(65..169)
+                     /label="AmpR promoter"
+                     /ApEinfo_revcolor="#b7e6d7"
+                     /ApEinfo_fwdcolor="#b7e6d7"
+                     /note="label: AmpR promoter note: pLannotate note: /database=snapgene note: /fragment=False note: /identity=100.0 note: /match_length=100.0 note: /other=promoter"
+     CDS             complement(185..201)
+                     /label="lacZα (fragment)"
+                     /ApEinfo_revcolor="#993366"
+                     /ApEinfo_fwdcolor="#993366"
+                     /note="codon_start: 1 label: lacZα (fragment) note: pLannotate note: /database=snapgene note: /fragment=True note: /identity=100.0 note: /match_length=9.8 note: /other=CDS transl_table: 1 translation: TGRRF"
+     terminator      202..233
+                     /label="tonB terminator"
+                     /ApEinfo_revcolor="#b7e6d7"
+                     /ApEinfo_fwdcolor="#b7e6d7"
+                     /note="label: tonB terminator note: pLannotate note: /database=snapgene note: /fragment=False note: /identity=96.9 note: /match_length=100.0 note: /other=terminator"
+     misc_feature    250..253
+                     /label="MC1-TU-L"
+                     /ApEinfo_revcolor="#b4abac"
+                     /ApEinfo_fwdcolor="#b4abac"
+                     /note="label: MC1-TU-L"
+     misc_feature    254..264
+                     /label="CAST 0 [TAAC]"
+                     /ApEinfo_revcolor="#b4abac"
+                     /ApEinfo_fwdcolor="#b4abac"
+                     /note="label: CAST 0 [TAAC]"
+     primer_bind     265..284
+                     /label="pT7"
+                     /ApEinfo_revcolor="#a020f0"
+                     /ApEinfo_fwdcolor="#a020f0"
+                     /note="label: pT7"
+     misc_feature    285..312
+                     /label="UTR1"
+                     /ApEinfo_revcolor="#b4abac"
+                     /ApEinfo_fwdcolor="#b4abac"
+                     /note="label: UTR1"
+     misc_feature    313..318
+                     /label="BsaI_Bind"
+                     /ApEinfo_revcolor="#b4abac"
+                     /ApEinfo_fwdcolor="#b4abac"
+                     /note="label: BsaI_Bind"
+     misc_feature    313..320
+                     /label="MC0U-SP"
+                     /ApEinfo_revcolor="#b4abac"
+                     /ApEinfo_fwdcolor="#b4abac"
+                     /note="label: MC0U-SP label: CDS Prefix"
+     CDS             321..941
+                     /label="ATP-dependent protease (clpP)"
+                     /ApEinfo_revcolor="#993366"
+                     /ApEinfo_fwdcolor="#993366"
+                     /note="codon_start: 1 note: ATP-dependent protease (clpP) protein_id: AAA23588.1 transl_table: 11 translation: MSYSGERDNFAPHMALVPMVIEQTSRGERSFDIYSRLLKERVIFLTGQVEDHMANLIVAQMLFLEAENPEKDIYLYINSPGGVITAGMSIYDTMQFIKPDVSTICMGQAASMGAFLLTAGAKGKRFCLPNSRVMIHQPLGGYQGQATDIEIHAREILKVKGRMNELMALHTGQSLEQIERDTERDRFLSAPEAVEYGLVDSILTHRN"
+     misc_feature    473..473
+                     /label="C->T"
+                     /ApEinfo_revcolor="#b4abac"
+                     /ApEinfo_fwdcolor="#b4abac"
+     CDS             942..956
+                     /label="Linker"
+                     /ApEinfo_revcolor="#993366"
+                     /ApEinfo_fwdcolor="#993366"
+                     /note="codon_start: 1 label: Linker transl_table: 1 translation: GGGGS"
+     CDS             957..974
+                     /label="His6"
+                     /ApEinfo_revcolor="#b4abac"
+                     /ApEinfo_fwdcolor="#b4abac"
+                     /note="codon_start: 1 label: His6 transl_table: 1 translation: HHHHHH"
+     misc_feature    981..998
+                     /label="CDS Suffix"
+                     /ApEinfo_revcolor="#b4abac"
+                     /ApEinfo_fwdcolor="#b4abac"
+                     /note="label: CDS Suffix"
+     terminator      1036..1083
+                     /label="T7 terminator"
+                     /ApEinfo_revcolor="#b7e6d7"
+                     /ApEinfo_fwdcolor="#b7e6d7"
+                     /note="label: T7 terminator note: pLannotate note: /database=snapgene note: /fragment=False note: /identity=100.0 note: /match_length=100.0 note: /other=terminator"
+     rep_origin      1171..1759
+                     /label="ori"
+                     /ApEinfo_revcolor="#ffff00"
+                     /ApEinfo_fwdcolor="#ffff00"
+                     /note="label: ori note: pLannotate note: /database=snapgene note: /fragment=False note: /identity=99.7 note: /match_length=100.0 note: /other=rep_origin"
+     CDS             complement(1950..64)
+                     /label="AmpR"
+                     /ApEinfo_revcolor="#b7e6d7"
+                     /ApEinfo_fwdcolor="#b7e6d7"
+                     /note="codon_start: 1 label: AmpR note: pLannotate note: /database=snapgene note: /fragment=False note: /identity=99.7 note: /match_length=100.0 note: /other=CDS transl_table: 1 translation: MSIQHFRVALIPFFAAFCLPVFAHPETLVKVKDAEDQLGARVGYIELDLNSGKILESFRPEERFPMMSTFKVLLCGAVLSRIDAGQEQLGRRIHYSQNDLVEYSPVTEKHLTDGMTVRELCSAAITMSDNTAANLLLTTIGGPKELTAFLHNMGDHVTRLDRWEPELNEAIPNDERDTTMPVAMATTLRKLLTGELLTLASRQQLIDWMEADKVAGPLLRSALPAGWFIADKSGAGERGSRGIIAALGPDGKPSRIVVIYTTGSQATMDERNRQIAEIGASLIKHW*"
+ORIGIN
+        1 aaacaggaag gcaaaatgcc gcaaaaaagg gaataagggc gacacggaaa tgttgaatac
+       61 tcatactctt cctttttcaa tattattgaa gcatttatca gggttattgt ctcatgagcg
+      121 gatacatatt tgaatgtatt tagaaaaata aacaaatagg ggttccgcgc acctgcacca
+      181 gtcagtaaaa cgacggccag tagtcaaaag cctacgaccg gaggcttttg acttggttca
+      241 ggtggagtgg gagcgtctca taactaatac gactcactat agggaataat tttgtttaac
+      301 tttaagaagg agggtctcta atgtcataca gcggcgaacg agataacttt gcaccccata
+      361 tggcgctggt gccgatggtc attgaacaga cctcacgcgg tgagcgctct tttgatatct
+      421 attctcgtct acttaaggaa cgcgtcattt ttctgactgg ccaggttgaa gaTcacatgg
+      481 ctaacctgat tgtggcgcag atgctgttcc tggaagcgga aaacccagaa aaagatatct
+      541 atctgtacat taactcccca ggcggggtga tcactgccgg gatgtctatc tatgacacca
+      601 tgcagtttat caagcctgat gtcagcacca tctgtatggg ccaggcggcc tcgatgggcg
+      661 ctttcttgct gaccgcaggg gcaaaaggta aacgtttttg cctgccgaat tcgcgcgtga
+      721 tgattcacca accgttgggc ggctaccagg gccaggcgac cgatatcgaa attcatgccc
+      781 gtgaaattct gaaagttaaa gggcgcatga atgaacttat ggcgcttcat acgggtcaat
+      841 cattagaaca gattgaacgt gataccgagc gcgatcgctt cctttccgcc cctgaagcgg
+      901 tggaatacgg tctggtcgat tcgattctga cccatcgtaa tggaggcggt ggatctcacc
+      961 atcaccacca tcattgataa tgaagagctt agagaccgcg ctgaggtgtc aatcgtcgga
+     1021 gccgctgagc aataactagc ataacccctt ggggcctcta aacgggtctt gaggggtttt
+     1081 ttgcatggtc atagctgttt cctgagagct tggcaggtga tgacacacat taacaaattt
+     1141 cgtgaggagt ctccagaaga atgccattaa tttccatagg ctccgccccc ctgacgagca
+     1201 tcacaaaaat cgacgctcaa gtcagaggtg gcgaaacccg acaggactat aaagatacca
+     1261 ggcgtttccc cctggaagct ccctcgtgcg ctctcctgtt ccgaccctgc cgcttaccgg
+     1321 atacctgtcc gcctttctcc cttcgggaag cgtggcgctt tctcatagct cacgctgtag
+     1381 gtatctcagt tcggtgtagg tcgttcgctc caagctgggc tgtgtgcacg aaccccccgt
+     1441 tcagcccgac cgctgcgcct tatccggtaa ctatcgtctt gagtccaacc cggtaagaca
+     1501 cgacttatcg ccactggcag cagccactgg taacaggatt agcagagcga ggtatgtagg
+     1561 cggtgctaca gagttcttga agtggtggcc taactacggc tacactagaa gaacagtatt
+     1621 tggtatctgc gctctgctga agccagttac cttcggaaaa agagttggta gctcttgatc
+     1681 cggcaaacaa accaccgctg gtagcggtgg tttttttgtt tgcaagcagc agattacacg
+     1741 cagaaaaaaa ggatctcaag aaggcctact attagcaaca acgatccttt gatcttttct
+     1801 acggggtctg acgctcagtg gaacgaaaac tcacgttaag ggattttggt catgagatta
+     1861 tcaaaaagga tcttcaccta gatcctttta aattaaaaat gaagttttaa atcaatctaa
+     1921 agtatatatg agtaaacttg gtctgacagt taccaatgct taatcagtga ggcacctatc
+     1981 tcagcgatct gtctatttcg ttcatccata gttgcctgac tccccgtcgt gtagataact
+     2041 acgatacggg agggcttacc atctggcccc agtgctgcaa tgataccgcg agaaccacgc
+     2101 tcaccggctc cagatttatc agcaataaac cagccagccg gaagggccga gcgcagaagt
+     2161 ggtcctgcaa ctttatccgc ctccatccag tctattaatt gttgccggga agctagagta
+     2221 agtagttcgc cagttaatag tttgcgcaac gttgttgcca ttgctacagg catcgtggtg
+     2281 tcacgctcgt cgtttggtat ggcttcattc agctccggtt cccaacgatc aaggcgagtt
+     2341 acatgatccc ccatgttgtg caaaaaagcg gttagctcct tcggtcctcc gatcgttgtc
+     2401 agaagtaagt tggccgcagt gttatcactc atggttatgg cagcactgca taattctctt
+     2461 actgtcatgc catccgtaag atgcttttct gtgactggtg agtactcaac caagtcattc
+     2521 tgagaatagt gtatgcggcg accgagttgc tcttgcccgg cgtcaatacg ggataatacc
+     2581 gcgccacata gcagaacttt aaaagtgctc atcattggaa aacgttcttc ggggcgaaaa
+     2641 ctctcaagga tcttaccgct gttgagatcc agttcgatgt aacccactcg tgcacccaac
+     2701 tgatcttcag catcttttac tttcaccagc gtttctgggt gagcaa
+//
