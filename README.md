@@ -22,8 +22,8 @@ DNA/
 ├── reporters/           # Protein reporter constructs 
 ├── pores/               # passive membrane transport
 ├── energy/              # metabolism to boost cytosol performance
-├── emitters/            # signal emission modules
-├── control/             # TODO
+├── emitters/            # signal emission 
+├── control/             # signal modulation 
 └── detectors/
     ├── quorum-sensing/  # Quorum sensing circuit components
     └── ...              # LacI/TetR-based repressor and operator constructs
@@ -102,25 +102,15 @@ The `energy/` directory contains modules that generate energy carrying molecules
 ---
 
 
-### `emitters/` — Signal emission modules
+### `emitters/` — Signal emission 
 
 The `emitters/` directory contains constructs for signal emission modules, typically small molecule generators. Includses [bjaI (tet regulation)](https://docs.nucleus.engineering/docs/implementations/responder-atc-ivhsl/main/), which produces the quorum sensing module IV-HSL.
 
 ---
 
-### `control/` — TODO
+### `control/` — Signal modulation
 
-TODO: needs description.
-
-<!-- Contextual notes for whoever writes this (not draft copy — extracted facts only, from devnotes/module-Clpxp/main.md and devnotes/module-Clpxp-Cytosol/main.md in nucleus-eng/2026-CERN-OHL-P):
-- ATP-dependent ClpXP protease system for programmable post-translational control — degrades proteins bearing a C-terminal ssrA tag.
-- ClpX (AAA+ ATPase/unfoldase) + ClpP (tetradecameric peptidase) form the ClpXP complex.
-- pOpen-ClpP-CHis.gb, pOpen-ClpX-CHis.gb — protease components (pOpen entry/PURE-expression constructs).
-- pOpen-deGFP-ssrA.gb, pOpen-deGFP-CHis-ssrA.gb, pOpen-plamGFP-CHis-ssrA.gb — ssrA-tagged fluorescent reporter substrates used to demonstrate degradation kinetics.
-- pOpen-SspB-CHis.gb — SspB adaptor protein, enhances ClpXP recognition of ssrA-tagged substrates.
-- pET28a-* files are E. coli protein-purification counterparts of the same 5 proteins above.
-- Used in nucleus-eng/DNA#8 (PURE-based) and nucleus-eng/DNA#3 (originally requested for cytosol-based reactions).
--->
+The `control/` directory contains modules that alter or modulate output signals. Includes ClpXP, an ATP-dependent protease that degrades targets with a C-terminal ssrA tag. Constructs used to produce protein components of this module found under `control/protein-purification/` subdirectory.
 
 ---
 
