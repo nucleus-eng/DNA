@@ -2,7 +2,7 @@
 
 This repository contains sequence files for the Nucleus Distribution DNA library. It is the companion DNA registry to the [Nucleus Distribution documentation](https://docs.nucleus.engineering), which describes the protocols and modules that use these parts.
 
-All files are in GenBank (`.gb`) format and can be opened in [Benchling](https://benchling.com), [Snapgene](https://www.snapgene.com/), [Benchling](https://benchling.com), or any other sequence editor that supports the GenBank format.
+All files are in GenBank (`.gb`) format and can be opened in [Benchling](https://benchling.com), [Snapgene](https://www.snapgene.com/), or any other sequence editor that supports the GenBank format.
 
 ## Naming convention
 
