@@ -1,11 +1,11 @@
 file	modules	state
-effectors/detector-ph/pT7-toehold9-PLA1-linear.gb	detector-ph,effector-pla1,ph-sensing-cell,ph-cascade	built
-effectors/detector-tetr-atc/pT7-tetO-PLA1-linear.gb	detector-tetr-atc,effector-pla1,atc-sensing-cell,atc-cascade	built
-effectors/detector-3oc6-hsl/LuxR-PLA1-linear.gb	detector-3oc6-hsl,effector-pla1,ahl-sensing-cell,london-cascade	built
+effectors/detector-ph/pT7-toehold9-PLA1-linear.gb	detector-ph,effector-pla1	built
+effectors/detector-tetr-atc/pT7-tetO-PLA1-linear.gb	detector-tetr-atc,effector-pla1	built
+effectors/detector-3oc6-hsl/LuxR-PLA1-linear.gb	detector-3oc6-hsl,effector-pla1	built
 reporters/detector-ph/pT7-toehold9-deGFP-linear.gb	detector-ph,reporter-degfp	built
 reporters/detector-tetr-atc/pT7-tetO-deGFP-linear.gb	detector-tetr-atc,reporter-degfp	built
 reporters/detector-tetr-atc/pT7-tetO-C23DO-linear.gb	detector-tetr-atc,reporter-xyle	built
-reporters/detector-3oc6-hsl/LuxR-deGFP-linear.gb	detector-3oc6-hsl,reporter-degfp,ahl-sensing-cell	built
+reporters/detector-3oc6-hsl/LuxR-deGFP-linear.gb	detector-3oc6-hsl,reporter-degfp	built
 reporters/detector-3oc6-hsl/pLux-deGFP-linear.gb	detector-3oc6-hsl,reporter-degfp	built
 detectors/detector-ph/trigger-ssDNA-3.gb	detector-ph	built
 detectors/detector-ph/pH-responsive-ssDNA-2.gb	detector-ph	built

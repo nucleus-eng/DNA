@@ -166,8 +166,10 @@ A construct can serve several modules, and a module can need several constructs.
 | column | meaning |
 | --- | --- |
 | `file` | path, relative to the repository root |
-| `modules` | comma-separated module directory names from `docs.nucleus.engineering`; empty when no module claims the construct |
+| `modules` | comma-separated module directory names from `docs.nucleus.engineering`, listing **direct membership only**; empty when no module claims the construct |
 | `state` | `built` if the construct has been amplified and purified, `designed` if it exists only as a sequence |
+
+**Direct membership means the module whose own composition names this construct**, not every module that inherits it. A fusion carries two modules' elements and so lists two. A sensing cell that composes a detector does *not* appear — follow `# Constituent Modules` on the module pages to get the full set. Listing the closure here would state the same relation twice, and the two copies would drift.
 
 The directory a file sits in records **one** of its memberships — the one its payload serves. The manifest records all of them. When the two seem to disagree, the manifest is the complete answer and the path is a filing decision.
 
