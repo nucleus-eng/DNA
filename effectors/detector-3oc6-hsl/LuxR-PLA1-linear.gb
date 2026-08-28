@@ -1,0 +1,162 @@
+LOCUS       LuxR-PLA1-linear        2237 bp    DNA     linear   UNA 25-JUN-2026
+DEFINITION  .
+ACCESSION   LuxR-PLA1-linear
+VERSION     LuxR-PLA1-linear
+KEYWORDS    .
+SOURCE      natural DNA sequence
+  ORGANISM  unspecified
+            .
+REFERENCE   1  (bases 1 to 2237)
+  AUTHORS   Bnext Bio
+  TITLE     Direct Submission
+  JOURNAL   Exported Jun 25, 2026 from SnapGene 8.2.2 https://www.snapgene.com
+FEATURES             Location/Qualifiers
+     source          1..2237
+                     /mol_type="genomic DNA"
+                     /organism="unspecified"
+     source          join(1..18,19..30)
+                     /mol_type="genomic DNA"
+                     /note="This feature has 2 segments: 1:  1 .. 18 / #ffffff
+                     2: 19 .. 30 / #ffffff"
+                     /organism="unspecified"
+     source          2205..2216
+                     /mol_type="genomic DNA"
+                     /note="color: #ffffff"
+                     /organism="unspecified"
+     source          2217..2237
+                     /mol_type="genomic DNA"
+                     /note="color: #ffffff"
+                     /organism="unspecified"
+     primer_bind     1..18
+                     /label="M13 fwd"
+                     /note="common sequencing primer, one of multiple similar
+                     variants"
+                     /note="color: #a020f0; direction: RIGHT"
+     misc_feature    19..24
+                     /label="BbsI"
+                     /note="color: #a6acb3"
+     misc_feature    27..30
+                     /label="MC1-TU-L"
+                     /note="color: #a6acb3"
+     misc_feature    34..55
+                     /label="BioBrick prefix"
+                     /note="pLannotate"
+                     /note="/database=snapgene"
+                     /note="/fragment=False"
+                     /note="/identity=100.0"
+                     /note="/match_length=100.0"
+                     /note="/other=misc_feature"
+                     /note="color: #ffef86"
+     misc_feature    56..90
+                     /label="BBa_J23101"
+                     /note="color: #b1ff67"
+     misc_feature    99..110
+                     /label="BBa_B0034"
+                     /note="color: #b1ff67"
+     CDS             117..866
+                     /codon_start=1
+                     /label="luxR"
+                     /note="pLannotate"
+                     /note="/database=swissprot"
+                     /note="/fragment=False"
+                     /note="/identity=100.0"
+                     /note="/match_length=100.0"
+                     /note="/other=CDS"
+                     /note="color: #84b0dc"
+                     /translation="MKNINADDTYRIINKIKACRSNNDINQCLSDMTKMVHCEYYLLAI
+                     IYPHSMVKSDISILDNYPKKWRQYYDDANLIKYDPIVDYSNSNHSPINWNIFENNAVNK
+                     KSPNVIKEAKTSGLITGFSFPIHTANNGFGMLSFAHSEKDNYIDSLFLHACMNIPLIVP
+                     SLVDNYRKINIANNKSNNDLTKREKECLAWACEGKSSWDISKILGCSERTVTFHLTNAQ
+                     MKLNTTNRCQSISKAILTGAIDCPYFKN"
+     misc_feature    881..1009
+                     /label="B0015 double terminator"
+                     /label="double terminator"
+                     /note="color: #d59687"
+     misc_feature    1010..1015
+                     /label="RF[10] scar RBS"
+                     /note="color: #c6c9d1"
+     misc_feature    1018..1072
+                     /label="Plux"
+                     /note="color: #85dae9"
+     misc_feature    1018..1037
+                     /label="lux box"
+                     /note="color: #f58a5e"
+     misc_feature    1059..1064
+                     /label="-10"
+                     /note="color: #ffef86"
+     misc_feature    1065..1067
+                     /label="discriminator element"
+                     /note="color: #ffef86"
+     misc_feature    1071
+                     /label="+1"
+                     /note="color: #84b0dc"
+     RBS             1081..1092
+                     /label="Bba_B0034"
+                     /note="color: #d59687"
+     misc_feature    1093..1098
+                     /label="RF[10] scar RBS"
+                     /note="color: #c6c9d1"
+     CDS             1099..2061
+                     /codon_start=1
+                     /label="PLA1"
+                     /note="color: #84b0dc"
+                     /translation="MSMSLSFTSAIAPAAIQPPMVRTQPEPLSSSQPVEASATKAPVAT
+                     LSQNSLNAQSLLNTLVSEISAAAPAAANQGVTRGQQPQKGDYTLALLAKDVYSTGSQGV
+                     EGFNRLSADALLGAGIDPASLQDAASGFQAGIYTDNQQYVLAFAGTNDMRDWLSNVRQA
+                     TGYDDVQYNQAVSLAKSAKAAFGDALVIAGHSLGGGLAATAALATGTVAVTFNAAGVSD
+                     YTLNRMGIDPAAAKQDAQAGGIRRYSEQYDMLTGTQESTSLIPDAIGHKITLANNDTLS
+                     GIDDWRPSKHLDRSLTAHGIDKVISSMAEQKPWEAMANA"
+     misc_feature    2076..2204
+                     /label="B0015 Double Terminator"
+                     /note="color: #85dae9"
+     misc_feature    2205..2208
+                     /label="MC1-TU-R"
+                     /note="color: #a6acb3"
+     misc_feature    complement(2211..2216)
+                     /label="BbsI"
+                     /note="color: #a6acb3; direction: LEFT"
+     primer_bind     complement(2217..2237)
+                     /label="M13 rev"
+                     /note="common sequencing primer, one of multiple similar
+                     variants"
+                     /note="color: #a020f0; direction: LEFT"
+ORIGIN
+        1 gtaaaacgac ggccagtgga agacatggag ctggaattcg cggccgcttc tagagtttac
+       61 agctagctca gtcctaggta ttatgctagc tactagagaa agaggagaaa tactagatga
+      121 aaaacataaa tgccgacgac acatacagaa taattaataa aattaaagct tgtagaagca
+      181 ataatgatat taatcaatgc ttatctgata tgactaaaat ggtacattgt gaatattatt
+      241 tactcgcgat catttatcct cattctatgg ttaaatctga tatttcaatc ctagataatt
+      301 accctaaaaa atggaggcaa tattatgatg acgctaattt aataaaatat gatcctatag
+      361 tagattattc taactccaat cattcaccaa ttaattggaa tatatttgaa aacaatgctg
+      421 taaataaaaa atctccaaat gtaattaaag aagcgaaaac atcaggtctt atcactgggt
+      481 ttagtttccc tattcatacg gctaacaatg gcttcggaat gcttagtttt gcacattcag
+      541 aaaaagacaa ctatatagat agtttatttt tacatgcgtg tatgaacata ccattaattg
+      601 ttccttctct agttgataat tatcgaaaaa taaatatagc aaataataaa tcaaacaacg
+      661 atttaaccaa aagagaaaaa gaatgtttag cgtgggcatg cgaaggaaaa agctcttggg
+      721 atatttcaaa aatattaggt tgcagtgagc gtactgtcac tttccattta accaatgcgc
+      781 aaatgaaact caatacaaca aaccgctgcc aaagtatttc taaagcaatt ttaacaggag
+      841 caattgattg cccatacttt aaaaattaat aatactagag ccaggcatca aataaaacga
+      901 aaggctcagt cgaaagactg ggcctttcgt tttatctgtt gtttgtcggt gaacgctctc
+      961 tactagagtc acactggctc accttcgggt gggcctttct gcgtttatat actagagacc
+     1021 tgtaggatcg tacaggttta cgcaagaaaa tggtttgtta tagtcgaata aatactagag
+     1081 aaagaggaga aatactagat gtctatgtcg ctgtctttca cctctgctat tgctccggct
+     1141 gctatccagc cgccgatggt tcgcacccag ccggaaccgc tgtcctcgtc tcagccggtt
+     1201 gaagcttctg ctaccaaagc cccggttgct accctgtctc agaactctct gaatgctcag
+     1261 tctctgttga acaccttggt ttctgaaatc tctgctgcgg ctccggccgc tgcaaaccag
+     1321 ggtgttaccc gtggccagca gccgcagaaa ggtgactaca ccctggcttt gctggctaaa
+     1381 gacgtttact ctaccggctc tcagggtgtt gaaggcttca accgcctgtc ggctgacgct
+     1441 ctgctgggtg ctggtattga tccggcttcc ctgcaggacg ccgcttctgg tttccaggct
+     1501 ggtatttaca ccgacaacca gcagtacgtt ctggctttcg ctggtaccaa tgacatgcgc
+     1561 gactggctgt ctaatgttcg tcaggctacc ggctacgacg acgttcagta caaccaggcg
+     1621 gtttccctgg ctaaatcggc taaagctgcc ttcggtgacg ctctggttat tgctggccac
+     1681 tctctgggtg gcggtctggc tgcgaccgcc gctctggcta ccggtaccgt tgctgttacc
+     1741 ttcaacgctg ctggtgtttc tgactacacc ctgaaccgta tgggcatcga cccggcagcg
+     1801 gctaaacagg acgcccaggc tggcggcatc cgccgttact ctgaacagta cgacatgctg
+     1861 accggtaccc aggaatcgac ctctctgatt ccggacgcta tcggccacaa aatcaccctg
+     1921 gctaataacg acaccctgtc aggtatcgac gactggcgtc cgtctaaaca cctggaccgt
+     1981 tctctgaccg cgcacggtat cgacaaagtt atctcgtcta tggccgaaca gaaaccgtgg
+     2041 gaagctatgg cgaacgctta ataataatac tagagccagg catcaaataa aacgaaaggc
+     2101 tcagtcgaaa gactgggcct ttcgttttat ctgttgtttg tcggtgaacg ctctctacta
+     2161 gagtcacact ggctcacctt cgggtgggcc tttctgcgtt tatacgctat gtcttccatg
+     2221 gtcatagctg tttcctg
+//

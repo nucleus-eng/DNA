@@ -1,0 +1,90 @@
+LOCUS       pT7-toehold9-deGFP-linear 918 bp    DNA     linear   UNA 25-JUN-2026
+DEFINITION  .
+ACCESSION   pT7-toehold9-deGFP-linear
+VERSION     pT7-toehold9-deGFP-linear
+KEYWORDS    .
+SOURCE      natural DNA sequence
+  ORGANISM  unspecified
+            .
+REFERENCE   1  (bases 1 to 918)
+  AUTHORS   Bnext Bio
+  TITLE     Direct Submission
+  JOURNAL   Exported Jun 25, 2026 from SnapGene 8.2.2 https://www.snapgene.com
+FEATURES             Location/Qualifiers
+     source          1..918
+                     /mol_type="genomic DNA"
+                     /organism="unspecified"
+     source          join(1..18,19..30)
+                     /mol_type="genomic DNA"
+                     /note="This feature has 2 segments: 1:  1 .. 18 / #ffffff
+                     2: 19 .. 30 / #ffffff"
+                     /organism="unspecified"
+     source          886..897
+                     /mol_type="genomic DNA"
+                     /note="color: #ffffff"
+                     /organism="unspecified"
+     source          898..918
+                     /mol_type="genomic DNA"
+                     /note="color: #ffffff"
+                     /organism="unspecified"
+     primer_bind     1..18
+                     /label="M13 fwd"
+                     /note="common sequencing primer, one of multiple similar
+                     variants"
+                     /note="color: #a020f0; direction: RIGHT"
+     misc_feature    19..24
+                     /label="BbsI"
+                     /note="color: #a6acb3"
+     misc_feature    27..30
+                     /label="MC1-TU-L"
+                     /note="color: #a6acb3"
+     misc_feature    31..49
+                     /label="T7 promoter"
+                     /note="color: #faac61"
+     misc_feature    50..130
+                     /label="toehold 9"
+                     /note="color: #c7b0e3"
+     CDS             131..808
+                     /codon_start=1
+                     /label="deGFP"
+                     /note="color: #00ff00"
+                     /translation="MELFTGVVPILVELDGDVNGHKFSVSGEGEGDATYGKLTLKFICT
+                     TGKLPVPWPTLVTTLTYGVQCFSRYPDHMKQHDFFKSAMPEGYVQERTIFFKDDGNYKT
+                     RAEVKFEGDTLVNRIELKGIDFKEDGNILGHKLEYNYNSHNVYIMADKQKNGIKVNFKI
+                     RHNIEDGSVQLADHYQQNTPIGDGPVLLPDNHYLSTQSALSKDPNEKRDHMVLLEFVTA
+                     AGI"
+     regulatory      827..865
+                     /label="T7hyb6 Terminator"
+                     /note="color: #ffffff"
+     misc_feature    866..885
+                     /label="Terminator Spacer"
+                     /note="color: #a6acb3"
+     misc_feature    886..889
+                     /label="MC1-TU-R"
+                     /note="color: #a6acb3"
+     misc_feature    complement(892..897)
+                     /label="BbsI"
+                     /note="color: #a6acb3; direction: LEFT"
+     primer_bind     complement(898..918)
+                     /label="M13 rev"
+                     /note="common sequencing primer, one of multiple similar
+                     variants"
+                     /note="color: #a020f0; direction: LEFT"
+ORIGIN
+        1 gtaaaacgac ggccagtgga agacatggag taatacgact cactataggg ttgtgtggta
+       61 ttgtcttgtt tgcatacaga aacagaggag atatgcaatg aagacaataa acctgaaagg
+      121 agcgcaaaag atggagcttt tcactggcgt tgttcccatc ctggtcgagc tggacggcga
+      181 cgtaaacggc cacaagttca gcgtgtccgg cgagggcgag ggcgacgcca cctacggcaa
+      241 gctgaccctg aagttcatct gcaccaccgg caagctgccc gtgccctggc ccaccctcgt
+      301 gaccaccctg acctacggcg tgcagtgctt cagccgctac cccgaccaca tgaagcagca
+      361 cgacttcttc aagtccgcca tgcccgaagg ctacgtccag gagcgcacca tcttcttcaa
+      421 ggacgacggc aactacaaga cccgcgccga ggtgaagttc gagggcgaca ccctggtgaa
+      481 ccgcatcgag ctgaagggca tcgacttcaa ggaggacggc aacatcctgg ggcacaagct
+      541 ggagtacaac tacaacagcc acaacgtcta tatcatggcc gacaagcaga agaacggcat
+      601 caaggtgaac ttcaagatcc gccacaacat cgaggacggc agcgtgcagc tcgccgacca
+      661 ctaccagcag aacaccccca tcggcgacgg ccccgtgctg ctgcccgaca accactacct
+      721 gagcacccag tccgccctga gcaaagaccc caacgagaag cgcgatcaca tggtcctgct
+      781 ggagttcgtg accgccgccg ggatctgatg aagagcttag agaccgagat aacagatact
+      841 tcggtatctg ttatctgttt tttttctaag catcacactg ccgtccgcta tgtcttccat
+      901 ggtcatagct gtttcctg
+//
