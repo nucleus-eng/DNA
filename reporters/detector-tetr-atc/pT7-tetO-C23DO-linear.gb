@@ -1,0 +1,77 @@
+LOCUS       pT7-tetO-C23DO-linear   1163 bp    DNA     linear   UNK 20-MAY-2026
+DEFINITION  .
+ACCESSION   pT7-tetO-C23DO-linear
+VERSION     pT7-tetO-C23DO-linear
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+     source          1131..1142
+                     /mol_type="genomic DNA"
+                     /organism="unspecified"
+                     /label="source"
+     misc_feature    1131..1134
+                     /label="MC1-TU-R"
+     misc_feature    complement(1137..1142)
+                     /label="BbsI"
+     source          1143..1163
+                     /mol_type="genomic DNA"
+                     /organism="unspecified"
+                     /label="source"
+     primer_bind     complement(1143..1163)
+                     /label="M13 rev"
+                     /note="common sequencing primer, one of multiple similar
+                     variants"
+     source          join(1..18,19..30)
+                     /mol_type="genomic DNA"
+                     /organism="unspecified"
+                     /label="source"
+     primer_bind     1..18
+                     /label="M13 fwd"
+                     /note="common sequencing primer, one of multiple similar
+                     variants"
+     misc_feature    19..24
+                     /label="BbsI"
+     misc_feature    27..30
+                     /label="MC1-TU-L"
+     source          31..1053
+                     /organism="MN.08.01.new_T7_TetO_C23DO in pTwist Amp Medium
+                     Copy"
+                     /label="source"
+     misc_feature    31..50
+                     /label="T7"
+     misc_feature    52..70
+                     /label="TetO"
+     misc_feature    100..122
+                     /label="RBS"
+     misc_feature    130..1053
+                     /label="C23DO catecholase"
+     regulatory      1072..1110
+                     /label="T7hyb6 Terminator"
+     misc_feature    1111..1130
+                     /label="Terminator Spacer"
+     misc_feature    1054..1071
+                     /label="CDS Suffix"
+ORIGIN
+        1 gtaaaacgac ggccagtgga agacatggag taatacgact cactataggg atccctatca
+       61 gtgatagaga gaccacaacg gtttccctct agaaataatt ttgtttaact ttaagaagga
+      121 gatatacata tgaacaaagg tgtaatgcga ccgggccatg tgcagctgcg tgtactggac
+      181 atgagcaagg ccctggaaca ctacgtcgag ttgctgggcc tgatcgagat ggaccgtgac
+      241 gaccagggcc gtgtctatct gaaggcttgg accgaagtgg ataagttttc cctggtgcta
+      301 cgcgaggctg acgagccggg catggatttt atgggtttca aggttgtgga tgaggatgct
+      361 ctccggcaac tggagcggga tctgatggca tatggctgtg ccgttgagca gctacccgca
+      421 ggtgaactga acagttgtgg ccggcgcgtg cgcttccagg ccccctccgg gcatcacttc
+      481 gagttgtatg cagacaagga atatactgga aagtggggtt tgaatgacgt caatcccgag
+      541 gcatggccgc gcgatctgaa aggtatggcg gctgtgcgtt tcgaccacgc cctcatgtat
+      601 ggcgacgaat tgccggcgac ctatgacctg ttcaccaagg tgctcggttt ctatctggcc
+      661 gaacaggtgc tggacgaaaa tggcacgcgc gtcgcccagt ttctcagtct gtcgaccaag
+      721 gcccacgacg tggccttcat tcaccatccg gaaaaaggcc gcctccatca tgtgtccttc
+      781 cacctcgaaa cctgggagga cttgcttcgc gccgccgacc tgatctccat gaccgacaca
+      841 tctatcgata tcggcccaac ccgccacggc ctcactcacg gcaagaccat ctacttcttc
+      901 gacccgtccg gtaaccgcaa cgaagtgttc tgcgggggag attacaacta cccggaccac
+      961 aaaccggtga cctggaccac cgaccagctg ggcaaggcga tcttttacca cgaccgcatt
+     1021 ctcaacgaac gattcatgac cgtgctgacc tgatgaagag cttagagacc gagataacag
+     1081 atacttcggt atctgttatc tgtttttttt ctaagcatca cactgccgtc cgctatgtct
+     1141 tccatggtca tagctgtttc ctg
+//

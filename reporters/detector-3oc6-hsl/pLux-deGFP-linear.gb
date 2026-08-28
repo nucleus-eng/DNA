@@ -1,0 +1,137 @@
+LOCUS       pLux-deGFP-linear        971 bp    DNA     linear   UNA 25-JUN-2026
+DEFINITION  .
+ACCESSION   pLux-deGFP-linear
+VERSION     pLux-deGFP-linear
+KEYWORDS    .
+SOURCE      natural DNA sequence
+  ORGANISM  unspecified
+            .
+REFERENCE   1  (bases 1 to 971)
+  AUTHORS   Bnext Bio
+  TITLE     Direct Submission
+  JOURNAL   Exported Jun 25, 2026 from SnapGene 8.2.2 https://www.snapgene.com
+FEATURES             Location/Qualifiers
+     source          1..971
+                     /mol_type="genomic DNA"
+                     /organism="unspecified"
+     source          1..33
+                     /mol_type="genomic DNA"
+                     /note="color: #ffffff"
+                     /organism="unspecified"
+     source          join(1..18,19..30)
+                     /mol_type="genomic DNA"
+                     /note="This feature has 2 segments: 1:  1 .. 18 / #ffffff
+                     2: 19 .. 30 / #ffffff"
+                     /organism="unspecified"
+     source          124..801
+                     /mol_type="genomic DNA"
+                     /note="color: #ffffff"
+                     /organism="unspecified"
+     source          939..971
+                     /mol_type="genomic DNA"
+                     /note="color: #ffffff"
+                     /organism="unspecified"
+     source          939..950
+                     /mol_type="genomic DNA"
+                     /note="color: #ffffff"
+                     /organism="unspecified"
+     source          951..971
+                     /mol_type="genomic DNA"
+                     /note="color: #ffffff"
+                     /organism="unspecified"
+     primer_bind     1..18
+                     /label="M13 fwd"
+                     /note="common sequencing primer, one of multiple similar
+                     variants"
+                     /note="color: #a020f0; direction: RIGHT"
+     misc_feature    19..24
+                     /label="BbsI"
+                     /note="color: #a6acb3"
+     misc_feature    27..30
+                     /label="MC1-TU-L"
+                     /note="color: #a6acb3"
+     misc_feature    34..104
+                     /label="Alternative promotor"
+                     /note="color: #b1ff67"
+     misc_feature    35..40
+                     /label="RF[10] scar RBS"
+                     /note="color: #c6c9d1"
+     misc_feature    43..97
+                     /label="Plux"
+                     /note="color: #85dae9"
+     misc_feature    43..62
+                     /label="lux box"
+                     /note="color: #f58a5e"
+     misc_feature    63..67
+                     /label="-35 promotor element"
+                     /note="color: #d6b295"
+     misc_feature    68..84
+                     /label="spacer"
+                     /note="color: #c6c9d1"
+     misc_feature    84..89
+                     /label="-10 element"
+                     /note="color: #b1ff67"
+     misc_feature    90..99
+                     /label="transpiration 5'UTR"
+                     /note="color: #b1ff67"
+     misc_feature    90..92
+                     /label="discriminator element"
+                     /note="color: #ffef86"
+     misc_feature    96
+                     /label="+1"
+                     /note="color: #84b0dc"
+     RBS             106..117
+                     /label="Bba_B0034"
+                     /note="color: #d59687"
+     misc_feature    118..123
+                     /label="RF[10] scar RBS"
+                     /note="color: #c6c9d1"
+     CDS             124..801
+                     /codon_start=1
+                     /label="deGFP"
+                     /note="color: #00ff00"
+                     /translation="MELFTGVVPILVELDGDVNGHKFSVSGEGEGDATYGKLTLKFICT
+                     TGKLPVPWPTLVTTLTYGVQCFSRYPDHMKQHDFFKSAMPEGYVQERTIFFKDDGNYKT
+                     RAEVKFEGDTLVNRIELKGIDFKEDGNILGHKLEYNYNSHNVYIMADKQKNGIKVNFKI
+                     RHNIEDGSVQLADHYQQNTPIGDGPVLLPDNHYLSTQSALSKDPNEKRDHMVLLEFVTA
+                     AGI"
+     misc_feature    802..807
+                     /label="RF[10] scar RBS"
+                     /note="color: #c6c9d1"
+     misc_feature    810..938
+                     /label="B0015 Double Terminator"
+                     /label="terminator"
+                     /note="color: #f58a5e"
+     misc_feature    890..895
+                     /label="RF[10] scar RBS"
+                     /note="color: #c6c9d1"
+     misc_feature    939..942
+                     /label="MC1-TU-R"
+                     /note="color: #a6acb3"
+     misc_feature    complement(945..950)
+                     /label="BbsI"
+                     /note="color: #a6acb3; direction: LEFT"
+     primer_bind     complement(951..971)
+                     /label="M13 rev"
+                     /note="common sequencing primer, one of multiple similar
+                     variants"
+                     /note="color: #a020f0; direction: LEFT"
+ORIGIN
+        1 gtaaaacgac ggccagtgga agacatggag ctgatactag agacctgtag gatcgtacag
+       61 gtttacgcaa gaaaatggtt tgttatagtc gaataaatac tagagaaaga ggagaaatac
+      121 tagatggagc ttttcactgg cgttgttccc atcctggtcg agctggacgg cgacgtaaac
+      181 ggccacaagt tcagcgtgtc cggcgagggc gagggcgacg ccacctacgg caagctgacc
+      241 ctgaagttca tctgcaccac cggcaagctg cccgtgccct ggcccaccct cgtgaccacc
+      301 ctgacctacg gcgtgcagtg cttcagccgc taccccgacc acatgaagca gcacgacttc
+      361 ttcaagtccg ccatgcccga aggctacgtc caggagcgca ccatcttctt caaggacgac
+      421 ggcaactaca agacccgcgc cgaggtgaag ttcgagggcg acaccctggt gaaccgcatc
+      481 gagctgaagg gcatcgactt caaggaggac ggcaacatcc tggggcacaa gctggagtac
+      541 aactacaaca gccacaacgt ctatatcatg gccgacaagc agaagaacgg catcaaggtg
+      601 aacttcaaga tccgccacaa catcgaggac ggcagcgtgc agctcgccga ccactaccag
+      661 cagaacaccc ccatcggcga cggccccgtg ctgctgcccg acaaccacta cctgagcacc
+      721 cagtccgccc tgagcaaaga ccccaacgag aagcgcgatc acatggtcct gctggagttc
+      781 gtgaccgccg ccgggatctg atactagagc caggcatcaa ataaaacgaa aggctcagtc
+      841 gaaagactgg gcctttcgtt ttatctgttg tttgtcggtg aacgctctct actagagtca
+      901 cactggctca ccttcgggtg ggcctttctg cgtttatacg ctatgtcttc catggtcata
+      961 gctgtttcct g
+//

@@ -2,11 +2,15 @@
 
 This repository contains sequence files for the Nucleus Distribution DNA library. It is the companion DNA registry to the [Nucleus Distribution documentation](https://docs.nucleus.engineering), which describes the protocols and modules that use these parts.
 
-All files are in GenBank (`.gb`) format and can be opened in [Benchling](https://benchling.com), [Snapgene](https://www.snapgene.com/), or any other sequence editor that supports the GenBank format.
+All files are in GenBank format and can be opened in [Benchling](https://benchling.com), [Snapgene](https://www.snapgene.com/), or any other sequence editor that supports the GenBank format. Most carry a `.gb` extension; two predate that convention and use `.gbk`, and are not renamed because documentation pages link to them by path.
 
 ## Naming convention
 
 Most parts in this library use the `pOpen` backbone — a modular cloning (MoClo) compatible entry vector (medium copy, ampicilin resistance). File names follow the pattern `pOpen-[part-name].gb`, where the part name describes the genetic element cloned into the backbone. Expression constructs for PURE system proteins use the `pET28a` backbone (medium copy, kanamycin resistance, lac inducible T7 expression) and follow the pattern `pET28a-[protein-name].gb`.
+
+Linear constructs — amplified fragments used directly in cell-free reactions rather than maintained in a vector — have no backbone to name, and follow the pattern `[regulatory-element]-[payload]-linear.gb`.
+
+**A construct carrying two modules' elements is filed under the module its payload serves.** `pT7-tetO-PLA1-linear.gb` puts a tetR-aTc operator and a PLA1 coding sequence on one molecule; it is filed under `effectors/`, because PLA1 is what it makes. Its detector membership is recorded in `manifest.tsv`, not in the path. This follows the earlier `emitters/pT7-tetO-tetO-bjaI-linear.gb`, filed by its bjaI payload for the same reason.
 
 ## Repository structure
 
@@ -24,10 +28,17 @@ DNA/
 ├── energy/              # metabolism to boost cytosol performance
 ├── emitters/            # signal emission 
 ├── control/             # signal modulation 
+├── effectors/           # payloads that act on the synthetic cell itself
+│   └── <module>/        # grouped by the docs module the payload serves
+├── reporters/
+│   └── <module>/        # linear reporter constructs, grouped as above
 └── detectors/
-    ├── quorum-sensing/  # Quorum sensing circuit components
+    ├── quorum-sensing/  # BjaI/BjaR components
+    ├── <module>/        # grouped by the docs module the construct serves
     └── ...              # LacI/TetR-based repressor and operator constructs
 ```
+
+Where a directory nests a second level, that level is named for the module directory in [the Nucleus Distribution documentation](https://docs.nucleus.engineering) — `detector-ph/`, `detector-tetr-atc/`, `detector-3oc6-hsl/`. Parts that predate this convention stay at the root of their directory; nothing has been moved.
 
 ---
 
@@ -87,6 +98,8 @@ The `terminators/` directory contains three T7 terminator variants originally de
 
 The `reporters/` directory contains fluorescent protein and chromoprotein reporter constructs. Includes deGFP, cjBlue, eforRed, plamGFP, amajLime, gfasPurple, meleRFP, and mmilCFP. Several reporters include a lacO operator insert for lac-regulated expression, and some include a C-terminal His6 tag for downstream purification.
 
+Subdirectories hold linear constructs in which a detector's regulatory element drives a reporter — deGFP for a fluorescent readout, C23DO for a colorimetric one. These are used directly in cell-free reactions and are not maintained in a vector.
+
 ---
 
 ### `pores/` — Passive transport through the membrane
@@ -104,7 +117,17 @@ The `energy/` directory contains modules that generate energy carrying molecules
 
 ### `emitters/` — Signal emission 
 
-The `emitters/` directory contains constructs for signal emission modules, typically small molecule generators. Includses [bjaI (tet regulation)](https://docs.nucleus.engineering/docs/implementations/responder-atc-ivhsl/main/), which produces the quorum sensing module IV-HSL.
+The `emitters/` directory contains constructs for signal emission modules, typically small molecule generators. Includes [bjaI (tet regulation)](https://docs.nucleus.engineering/docs/implementations/responder-atc-ivhsl/main/), which produces the quorum sensing module IV-HSL. Also includes `luxI-linear.gb`, the LuxI synthase.
+
+**BjaI and LuxI are not the same system.** BjaI produces IV-HSL (a branched-chain acyl-homoserine lactone, detected by BjaR); LuxI produces 3OC6-HSL (detected by LuxR). Both are commonly shortened to "AHL" and they are not interchangeable. `luxI-linear.gb` is driven by a *lacUV5* promoter for expression in *E. coli* rather than in a synthetic cell, and no module currently claims it.
+
+---
+
+### `effectors/` — Payloads that act on the synthetic cell itself
+
+The `effectors/` directory contains constructs whose payload changes the cell that expresses it, rather than emitting, reporting or modulating a signal. Currently [PLA1](https://docs.nucleus.engineering/docs/modules/effector-pla1/spec/), a phospholipase from *Serratia* sp. MK1 that lyses phospholipid membranes and so releases whatever a compartment holds.
+
+Every construct here is a linear fusion: a detector's regulatory element driving PLA1. They are grouped by the detector that gates them — `detector-ph/`, `detector-tetr-atc/`, `detector-3oc6-hsl/` — because that is the module a reader looks up when choosing one.
 
 ---
 
@@ -123,12 +146,39 @@ The `detectors/` directory contains constructs for building gene circuits that r
 - `pOpen-pT7-lacO.gb`, `pOpen-pT7-tetO.gb` — T7 promoters with single operator sites
 - `pOpen-pT7-lacO-tetO.gb`, `pOpen-pT7-tetO-lacO.gb` — dual-operator promoters for AND-gate logic
 
+**`detectors/detector-ph/`** — pH-responsive toehold switch. The two synthesized oligonucleotides that make up the sensing element:
+- `pH-responsive-ssDNA-2.gb` — the pH-responsive strand
+- `trigger-ssDNA-3.gb` — the trigger strand it releases on acidification
+
+**`detectors/detector-3oc6-hsl/`** — LuxR/pLux quorum sensing, responding to 3OC6-HSL:
+- `J23101-luxR-linear.gb` — constitutive LuxR receiver
+
 **`detectors/quorum-sensing/`** — BjaI/BjaR quorum sensing system from *Bradyrhizobium japonicum*:
 - `pOpen-pT7-bjaI.gb` — BjaI synthase (signal production)
 - `pOpen-bjaR-GFP-native.gb` — BjaR receptor fused to GFP reporter under native promoter. Used in an _E. coli_ strain as a reporter for signal emitted by a syncell with bjaI.
 
 ---
 
+## `manifest.tsv` — which modules use which construct
+
+A construct can serve several modules, and a module can need several constructs. Directories are a tree and cannot hold that relation, so it lives in `manifest.tsv` at the repository root:
+
+| column | meaning |
+| --- | --- |
+| `file` | path, relative to the repository root |
+| `modules` | comma-separated module directory names from `docs.nucleus.engineering`, listing **direct membership only**; empty when no module claims the construct |
+| `state` | `built` if the construct has been amplified and purified, `designed` if it exists only as a sequence |
+
+**Direct membership means the module whose own composition names this construct**, not every module that inherits it. A fusion carries two modules' elements and so lists two. A sensing cell that composes a detector does *not* appear — follow `# Constituent Modules` on the module pages to get the full set. Listing the closure here would state the same relation twice, and the two copies would drift.
+
+The directory a file sits in records **one** of its memberships — the one its payload serves. The manifest records all of them. When the two seem to disagree, the manifest is the complete answer and the path is a filing decision.
+
+An empty `modules` column is information, not an omission: it marks a sequence the documentation does not yet describe.
+
+---
+
 ## Relationship to Nucleus Distribution docs
 
 Protocol pages in the [Nucleus Distribution documentation](https://docs.nucleus.engineering) reference specific constructs from this repository by filename. When a protocol calls for a specific plasmid, the corresponding `.gb` file can be found here.
+
+**Paths in this repository are a public interface.** Documentation pages link to files as `github.com/nucleus-eng/DNA/blob/main/<path>`, so moving or renaming a file breaks those links silently — the docs' own link checker cannot see across repositories. Add new directories freely; do not reorganize existing ones without fixing the links in the same change.

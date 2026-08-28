@@ -1,0 +1,65 @@
+LOCUS       luxI-linear              821 bp    DNA     linear   UNA 05-AUG-2026
+DEFINITION  .
+ACCESSION   luxI-linear
+VERSION     luxI-linear
+KEYWORDS    .
+SOURCE      natural DNA sequence
+  ORGANISM  unspecified
+            .
+REFERENCE   1  (bases 1 to 821)
+  AUTHORS   Bnext Bio
+  TITLE     Direct Submission
+  JOURNAL   Exported Aug 5, 2026 from SnapGene 8.2.2 https://www.snapgene.com
+FEATURES             Location/Qualifiers
+     source          1..821
+                     /mol_type="genomic DNA"
+                     /organism="unspecified"
+     promoter        join(1..6,7..24,25..31)
+                     /label="lac UV5 promoter"
+                     /note="E. coli lac promoter with an ""up"" mutation"
+                     /note="This forward directional feature has 3 segments: 1: 
+                     1 ..  6 / #ffffff / -35 2:  7 .. 24 / #ffffff 3: 25 .. 31 /
+                     #ffffff / -10"
+     misc_RNA        45..94
+                     /label="sTRSV HHRz"
+                     /note="hammerhead ribozyme from the tobacco ringspot virus
+                     satellite RNA (Khvorova et al., 2003)"
+                     /note="color: #008000; direction: RIGHT"
+     RBS             122..133
+                     /note="strong bacterial ribosome binding site (Elowitz and
+                     Leibler, 2000)"
+                     /note="color: #a6acb3"
+     CDS             140..721
+                     /codon_start=1
+                     /label="luxI"
+                     /note="color: #993366"
+                     /translation="MTIMIKKSDFLAIPSEEYKGILSLRYQVFKQRLEWDLVVENNLES
+                     DEYDNSNAEYIYACDDTENVSGCWRLLPTTGDYMLKSVFPELLGQQSAPKDPNIVELSR
+                     FAVGKNSSKINNSASEITMKLFEAIYKHAVSQGITEYVTVTSTAIERFLKRIKVPCHRI
+                     GDKEIHVLGDTKSVVLSMPINEQFKKAVLN"
+     misc_feature    725..745
+                     /label="BioBrick suffix"
+                     /note="universal suffix for all parts"
+                     /note="color: #a6ccff"
+     terminator      746..803
+                     /label="his operon terminator"
+                     /note="This putative transcriptin terminator from the E.
+                     coli his operon has a 2-bp deletion introduced during
+                     synthesis. Its efficiency has not been determined."
+                     /note="color: #ffffff; direction: RIGHT"
+ORIGIN
+        1 tttacacttt atgcttccgg ctcgtataat gtgtggaaac tcagctgtca ccggatgtgc
+       61 tttccggtct gatgagtccg tgaggacgaa acagcctcta caaataattt tgtttaaaaa
+      121 aaaagaggag aaaggatcca tgactataat gataaagaag tcggattttt tggcaattcc
+      181 atcggaggag tataaaggta ttctaagtct tcgttatcaa gtgtttaagc aaagacttga
+      241 gtgggactta gttgtagaaa ataaccttga atcagatgag tatgataact caaatgcaga
+      301 atatatttat gcttgtgatg atactgaaaa tgtaagtgga tgctggcgtt tattacctac
+      361 aacaggtgat tatatgctga aaagtgtttt tcctgaattg cttggtcaac agagtgctcc
+      421 caaagatcct aatatagtcg aattaagtcg ttttgctgta ggtaaaaata gctcaaagat
+      481 aaataactct gctagtgaaa ttacaatgaa actatttgaa gctatatata aacacgctgt
+      541 tagtcaaggt attacagaat atgtaacagt aacatcaaca gcaatagagc gatttttaaa
+      601 gcgtattaaa gttccttgtc atcgtattgg agacaaagaa attcatgtat taggtgatac
+      661 taaatcggtt gtattgtcta tgcctattaa tgaacagttt aaaaaagcag tcttaaatta
+      721 ataatactag tagcggccgc tgcagtccgg caaaaaaggg caaggtgtca ccaccctgcc
+      781 ctttttcttt aaaaccgaaa agattacttc gcgttatgca g
+//

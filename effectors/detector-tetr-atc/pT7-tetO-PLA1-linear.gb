@@ -1,0 +1,96 @@
+LOCUS       pT7-tetO-PLA1-linear    1202 bp    DNA     linear   UNK 17-AUG-2026
+DEFINITION  .
+ACCESSION   pT7-tetO-PLA1-linear
+VERSION     pT7-tetO-PLA1-linear
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+     source          1170..1181
+                     /mol_type="genomic DNA"
+                     /organism="unspecified"
+                     /label="source"
+     misc_feature    1170..1173
+                     /label="MC1-TU-R"
+     misc_feature    complement(1176..1181)
+                     /label="BbsI"
+     source          1182..1202
+                     /mol_type="genomic DNA"
+                     /organism="unspecified"
+                     /label="source"
+     primer_bind     complement(1182..1202)
+                     /label="M13 rev"
+                     /note="common sequencing primer, one of multiple similar
+                     variants"
+     source          join(1..18,19..30)
+                     /mol_type="genomic DNA"
+                     /organism="unspecified"
+                     /label="source"
+     primer_bind     1..18
+                     /label="M13 fwd"
+                     /note="common sequencing primer, one of multiple similar
+                     variants"
+     misc_feature    19..24
+                     /label="BbsI"
+     misc_feature    27..30
+                     /label="MC1-TU-L"
+     source          31..129
+                     /organism="MN.08.01.new_T7_TetO_C23DO in pTwist Amp Medium
+                     Copy"
+                     /label="source"
+     misc_feature    31..50
+                     /label="T7"
+     misc_feature    52..70
+                     /label="TetO"
+     misc_feature    100..122
+                     /label="RBS"
+     regulatory      1111..1149
+                     /label="T7hyb6 Terminator"
+     misc_feature    1150..1169
+                     /label="Terminator Spacer"
+     misc_feature    1093..1110
+                     /label="CDS Suffix"
+     source          130..1092
+                     /mol_type="genomic DNA"
+                     /organism="unspecified"
+                     /label="source"
+     source          130..1092
+                     /organism="Gene_0 in pTwist Amp Medium Copy"
+                     /label="source"
+     CDS             130..1092
+                     /codon_start=1
+                     /label="PLA1"
+                     /transl_table=1
+                     /translation="MSMSLSFTSAIAPAAIQPPMVRTQPEPLSSSQPVEASATKAPVAT
+                     LSQNSLNAQSLLNTLVSEISAAAPAAANQGVTRGQQPQKGDYTLALLAKDVYSTGSQGV
+                     EGFNRLSADALLGAGIDPASLQDAASGFQAGIYTDNQQYVLAFAGTNDMRDWLSNVRQA
+                     TGYDDVQYNQAVSLAKSAKAAFGDALVIAGHSLGGGLAATAALATGTVAVTFNAAGVSD
+                     YTLNRMGIDPAAAKQDAQAGGIRRYSEQYDMLTGTQESTSLIPDAIGHKITLANNDTLS
+                     GIDDWRPSKHLDRSLTAHGIDKVISSMAEQKPWEAMANA*"
+     misc_feature    130..1092
+                     /label="PLA1 (codon-optimized to E. coli)"
+                     /note="phospholipase A1 (PLA1) from Serratia sp. MK1"
+ORIGIN
+        1 gtaaaacgac ggccagtgga agacatggag taatacgact cactataggg atccctatca
+       61 gtgatagaga gaccacaacg gtttccctct agaaataatt ttgtttaact ttaagaagga
+      121 gatatacata tgtctatgtc actgtctttt acatcggcta tcgcgcccgc tgctattcaa
+      181 ccgccaatgg tccgtacaca gccggaaccg ttgtcctcta gtcagcctgt ggaagcgagc
+      241 gctacaaaag cccctgtcgc aaccctgagt cagaactccc tcaatgccca atcattgctc
+      301 aataccctcg tctccgaaat ctctgccgcc gctccggcgg cagctaatca aggagtcacg
+      361 cgcgggcagc agccacagaa aggagactat actttggcgc tgctcgctaa agatgtttat
+      421 tcaaccggtt cacagggtgt cgaagggttc aaccgcctgt cagctgatgc gttgttagga
+      481 gcaggtatag atccggcaag tctgcaggac gccgcttccg gctttcaagc agggatttat
+      541 acggataacc agcagtacgt tcttgctttt gctgggacca atgatatgcg agattggttg
+      601 agcaacgtcc gtcaagcgac cggatacgac gatgtacagt ataatcaggc tgtcagcttg
+      661 gcaaaatctg ctaaagccgc cttcggcgac gcgcttgtta ttgccggcca tagcttaggg
+      721 ggcggcctcg ccgcaacggc tgcattggct acagggactg tggctgttac ttttaacgca
+      781 gctggggtgt cagattatac gcttaatcgt atgggaattg accctgcggc agccaaacag
+      841 gatgcccagg ccggtgggat ccgtcgctat agcgaacaat acgatatgct tactgggaca
+      901 caagaatcaa caagcctcat cccagacgct attggtcata aaattacctt agcgaacaac
+      961 gatacattga gtggcattga tgactggcgt ccctcaaaac acctggatcg ttcactgact
+     1021 gcacatggta tcgataaagt tatctcgagt atggcggaac agaagccgtg ggaagcaatg
+     1081 gccaacgcat gatgaagagc ttagagaccg agataacaga tacttcggta tctgttatct
+     1141 gttttttttc taagcatcac actgccgtcc gctatgtctt ccatggtcat agctgtttcc
+     1201 tg
+//
