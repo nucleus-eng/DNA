@@ -11,3 +11,8 @@ detectors/detector-ph/trigger-ssDNA-3.gb	detector-ph	built
 detectors/detector-ph/pH-responsive-ssDNA-2.gb	detector-ph	built
 detectors/detector-3oc6-hsl/J23101-luxR-linear.gb	detector-3oc6-hsl	built
 emitters/luxI-linear.gb		designed
+effectors/detector-3oc6-hsl/pOpen-LuxR-PLA1.gb	detector-3oc6-hsl,effector-pla1	built
+reporters/detector-3oc6-hsl/pOpen-LuxR-deGFP.gb	detector-3oc6-hsl,reporter-degfp	built
+effectors/detector-tetr-atc/pOpen-T7-tetO-PLA1.gb	detector-tetr-atc,effector-pla1	built
+reporters/detector-tetr-atc/pOpen-T7-tetO-C23DO.gb	detector-tetr-atc,reporter-xyle	built
+emitters/pUC-IDT-AMP-lacUV5-luxI.gb		built

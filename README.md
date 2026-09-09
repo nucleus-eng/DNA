@@ -12,6 +12,17 @@ Linear constructs — amplified fragments used directly in cell-free reactions r
 
 **A construct carrying two modules' elements is filed under the module its payload serves.** `pT7-tetO-PLA1-linear.gb` puts a tetR-aTc operator and a PLA1 coding sequence on one molecule; it is filed under `effectors/`, because PLA1 is what it makes. Its detector membership is recorded in `manifest.tsv`, not in the path. This follows the earlier `emitters/pT7-tetO-tetO-bjaI-linear.gb`, filed by its bjaI payload for the same reason.
 
+**Some constructs exist as a linear cassette and as a circular plasmid, and they are not interchangeable.** `LuxR-PLA1-linear.gb` (2237 bp) is the expression cassette alone; `pOpen-LuxR-PLA1.gb` (4175 bp) is that same cassette carried in the pOpen backbone, with `ori` and `AmpR`. They share a cassette and are **functionally equivalent but not sequence-identical**, so a page citing one is not citing the other.
+
+The distinction is not cosmetic — it decides which file a protocol may reference. **S30 lysate degrades linear DNA** (no GamS), so an S30 route needs the circular form; a Base Cytosol route uses the linear cassette. Filing both under the same module directory is deliberate: the pair is one design in two forms.
+
+| Cassette | Circular |
+| --- | --- |
+| `effectors/detector-3oc6-hsl/LuxR-PLA1-linear.gb` — 2237 bp | `pOpen-LuxR-PLA1.gb` — 4175 bp |
+| `reporters/detector-3oc6-hsl/LuxR-deGFP-linear.gb` — 1952 bp | `pOpen-LuxR-deGFP.gb` — 3890 bp |
+| `effectors/detector-tetr-atc/pT7-tetO-PLA1-linear.gb` — 1202 bp | `pOpen-T7-tetO-PLA1.gb` — 3140 bp |
+| `reporters/detector-tetr-atc/pT7-tetO-C23DO-linear.gb` | `pOpen-T7-tetO-C23DO.gb` — 3101 bp |
+
 ## Repository structure
 
 ```
@@ -117,7 +128,7 @@ The `energy/` directory contains modules that generate energy carrying molecules
 
 ### `emitters/` — Signal emission 
 
-The `emitters/` directory contains constructs for signal emission modules, typically small molecule generators. Includes [bjaI (tet regulation)](https://docs.nucleus.engineering/docs/implementations/responder-atc-ivhsl/main/), which produces the quorum sensing module IV-HSL. Also includes `luxI-linear.gb`, the LuxI synthase.
+The `emitters/` directory contains constructs for signal emission modules, typically small molecule generators. Includes [bjaI (tet regulation)](https://docs.nucleus.engineering/docs/implementations/responder-atc-ivhsl/main/), which produces the quorum sensing module IV-HSL. Also includes `luxI-linear.gb`, the LuxI synthase, and `pUC-IDT-AMP-lacUV5-luxI.gb` — the **circular** form of that construct, `lacUV5`-driven `luxI` in a pUCIDT-AMP backbone. The linear form is `designed`; the circular one is built.
 
 **BjaI and LuxI are not the same system.** BjaI produces IV-HSL (a branched-chain acyl-homoserine lactone, detected by BjaR); LuxI produces 3OC6-HSL (detected by LuxR). Both are commonly shortened to "AHL" and they are not interchangeable. `luxI-linear.gb` is driven by a *lacUV5* promoter for expression in *E. coli* rather than in a synthetic cell, and no module currently claims it.
 
