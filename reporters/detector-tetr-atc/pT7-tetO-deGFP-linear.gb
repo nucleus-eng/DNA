@@ -1,0 +1,80 @@
+LOCUS       pT7-tetO-deGFP-linear    917 bp    DNA     linear   UNK 20-MAY-2026
+DEFINITION  .
+ACCESSION   pT7-tetO-deGFP-linear
+VERSION     pT7-tetO-deGFP-linear
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+     source          885..896
+                     /mol_type="genomic DNA"
+                     /organism="unspecified"
+                     /label="source"
+     misc_feature    885..888
+                     /label="MC1-TU-R"
+     misc_feature    complement(891..896)
+                     /label="BbsI"
+     source          897..917
+                     /mol_type="genomic DNA"
+                     /organism="unspecified"
+                     /label="source"
+     primer_bind     complement(897..917)
+                     /label="M13 rev"
+                     /note="common sequencing primer, one of multiple similar
+                     variants"
+     source          join(1..18,19..30)
+                     /mol_type="genomic DNA"
+                     /organism="unspecified"
+                     /label="source"
+     primer_bind     1..18
+                     /label="M13 fwd"
+                     /note="common sequencing primer, one of multiple similar
+                     variants"
+     misc_feature    19..24
+                     /label="BbsI"
+     misc_feature    27..30
+                     /label="MC1-TU-L"
+     source          31..129
+                     /organism="MN.08.01.new_T7_TetO_C23DO in pTwist Amp Medium
+                     Copy"
+                     /label="source"
+     misc_feature    31..50
+                     /label="T7"
+     misc_feature    52..70
+                     /label="TetO"
+     misc_feature    100..122
+                     /label="RBS"
+     regulatory      826..864
+                     /label="T7hyb6 Terminator"
+     misc_feature    865..884
+                     /label="Terminator Spacer"
+     misc_feature    808..825
+                     /label="CDS Suffix"
+     CDS             130..807
+                     /codon_start=1
+                     /label="deGFP"
+                     /transl_table=1
+                     /translation="MELFTGVVPILVELDGDVNGHKFSVSGEGEGDATYGKLTLKFICT
+                     TGKLPVPWPTLVTTLTYGVQCFSRYPDHMKQHDFFKSAMPEGYVQERTIFFKDDGNYKT
+                     RAEVKFEGDTLVNRIELKGIDFKEDGNILGHKLEYNYNSHNVYIMADKQKNGIKVNFKI
+                     RHNIEDGSVQLADHYQQNTPIGDGPVLLPDNHYLSTQSALSKDPNEKRDHMVLLEFVTA
+                     AGI*"
+ORIGIN
+        1 gtaaaacgac ggccagtgga agacatggag taatacgact cactataggg atccctatca
+       61 gtgatagaga gaccacaacg gtttccctct agaaataatt ttgtttaact ttaagaagga
+      121 gatatacata tggagctttt cactggcgtt gttcccatcc tggtcgagct ggacggcgac
+      181 gtaaacggcc acaagttcag cgtgtccggc gagggcgagg gcgacgccac ctacggcaag
+      241 ctgaccctga agttcatctg caccaccggc aagctgcccg tgccctggcc caccctcgtg
+      301 accaccctga cctacggcgt gcagtgcttc agccgctacc ccgaccacat gaagcagcac
+      361 gacttcttca agtccgccat gcccgaaggc tacgtccagg agcgcaccat cttcttcaag
+      421 gacgacggca actacaagac ccgcgccgag gtgaagttcg agggcgacac cctggtgaac
+      481 cgcatcgagc tgaagggcat cgacttcaag gaggacggca acatcctggg gcacaagctg
+      541 gagtacaact acaacagcca caacgtctat atcatggccg acaagcagaa gaacggcatc
+      601 aaggtgaact tcaagatccg ccacaacatc gaggacggca gcgtgcagct cgccgaccac
+      661 taccagcaga acacccccat cggcgacggc cccgtgctgc tgcccgacaa ccactacctg
+      721 agcacccagt ccgccctgag caaagacccc aacgagaagc gcgatcacat ggtcctgctg
+      781 gagttcgtga ccgccgccgg gatctgatga agagcttaga gaccgagata acagatactt
+      841 cggtatctgt tatctgtttt ttttctaagc atcacactgc cgtccgctat gtcttccatg
+      901 gtcatagctg tttcctg
+//

@@ -1,0 +1,12 @@
+LOCUS       pH-responsive-ssDNA-2     49 bp    ds-DNA  linear   UNK 01-JUN-2026
+DEFINITION  .
+ACCESSION   pH-responsive-ssDNA-2
+VERSION     pH-responsive-ssDNA-2
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 ttctcttctc gtttgctctt ctcttgtgtg gtattgtcca agagaagag
+//
