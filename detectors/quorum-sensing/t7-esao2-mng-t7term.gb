@@ -1,0 +1,86 @@
+LOCUS       t7pro-esao2-ls1-        1118 bp    DNA     linear   SYN 17-SEP-2026
+DEFINITION  .
+ACCESSION   .
+VERSION     .
+KEYWORDS    .
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct
+REFERENCE   1  (bases 1 to 1118)
+  AUTHORS   .
+  TITLE     Direct Submission
+  JOURNAL   Exported Sep 17, 2026 from SnapGene 8.2.3
+            https://www.snapgene.com
+FEATURES             Location/Qualifiers
+     source          1..1118
+                     /mol_type="other DNA"
+                     /organism="synthetic DNA construct"
+     source          21..38
+                     /mol_type="other DNA"
+                     /note="color: #ffffff"
+                     /organism="synthetic DNA construct"
+     misc_feature    1..20
+                     /label=5' spacer
+                     /note="color: #c6c9d1"
+     misc_feature    21..38
+                     /label=M13_Fwd
+                     /note="color: #a6acb3"
+     misc_feature    39..60
+                     /label=T7pro
+                     /note="color: #75c6a9"
+     misc_feature    61
+                     /label=+1
+                     /note="color: #84b0dc"
+     misc_feature    62..80
+                     /label=EsaO
+                     /note="color: #ff9ccd"
+     misc_feature    82..100
+                     /label=EsaO
+                     /note="color: #ff9ccd"
+     misc_feature    101..170
+                     /label=LS1
+                     /note="color: #b4abac"
+     misc_feature    128..170
+                     /label=epsilon enhancer
+                     /note="color: #93c5fd"
+     misc_feature    157..162
+                     /label=Strong RBS
+                     /note="color: #fcd34d"
+     CDS             171..881
+                     /codon_start=1
+                     /label=mNeonGreen
+                     /note="color: #b1ff67"
+                     /translation="MVSKGEEDNMASLPATHELHIFGSINGVDFDMVGQGTGNPNDGYE
+                     ELNLKSTKGDLQFSPWILVPHIGYGFHQYLPYPDGMSPFQAAMVDGSGYQVHRTMQFED
+                     GASLTVNYRYTYEGSHIKGEAQVKGTGFPADGPVMTNSLTAADWCRSKKTYPNDKTIIS
+                     TFKWSYTTGNGKRYRSTARTTYTFAKPMAANYLKNQPMYVFRKTELKHSKTELNFKEWQ
+                     KAFTDVMGMDELYK"
+     misc_feature    1031..1077
+                     /label=T7 terminator
+                     /note="color: #c6c9d1"
+     misc_feature    complement(1078..1098)
+                     /label=M13_Rev
+                     /note="color: #c6c9d1; direction: LEFT"
+     misc_feature    1099..1118
+                     /label=3' spacer
+                     /note="color: #c6c9d1"
+ORIGIN
+        1 gggaccatta cggaggcagt gtaaaacgac ggccagtgcc ggttaatacg actcactata
+       61 gcctgtacta tagtgcaggt tcctgtacta tagtgcaggt ggagattgtg agcggataac
+      121 aattcccctc tagaaataat tttgtttaac tttaagaagg agatatacat atggtgagca
+      181 aaggcgaaga ggataatatg gcaagcctgc ctgcaacaca tgaactgcat atttttggta
+      241 gcattaacgg cgtggatttt gatatggttg gtcaaggcac cggtaatccg aatgatggtt
+      301 atgaagaact gaatctgaaa agcaccaaag gcgatctgca gtttagcccg tggattctgg
+      361 ttccgcatat tggttatggt tttcatcagt atctgccgta tccggatggt atgagcccgt
+      421 ttcaggcagc aatggttgat ggtagcggtt atcaggttca tcgtaccatg cagtttgaag
+      481 atggtgcaag cctgaccgtt aattatcgtt atacctatga aggcagccac attaaaggtg
+      541 aagcacaggt taaaggtaca ggttttccgg cagatggtcc ggttatgacc aatagtctga
+      601 ccgcagcaga ttggtgtcgt agcaaaaaaa cctatccgaa cgataaaacc atcatcagca
+      661 ccttcaaatg gtcatatacc accggcaatg gtaaacgtta tcgtagcacc gcacgtacca
+      721 cctatacctt tgcaaaaccg atggcagcaa actatctgaa aaatcagccg atgtatgtgt
+      781 ttcgcaaaac ggaactgaaa cattccaaaa ccgagctgaa ctttaaagaa tggcagaaag
+      841 catttaccga tgtgatgggc atggatgaac tatacaaata aggatcccgg gaattctcga
+      901 gtaaggttaa cctgcaggag gcctttaatt aaggtggtgc ggccgcgcta gcggtcccgg
+      961 gggatcgatc cggctgctaa caaagcccga aaggaagctg agttggctgc tgccaccgct
+     1021 gagcaataac tagcataacc ccttggggcc tctaaacggg tcttgagggg ttttttgcat
+     1081 ggtcatagct gtttcctgcc tgatgcatga gctagcag
+//

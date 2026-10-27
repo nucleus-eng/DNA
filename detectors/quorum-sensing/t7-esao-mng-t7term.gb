@@ -1,0 +1,79 @@
+LOCUS       t7pro-esao-ls1-m        1098 bp    DNA     linear   SYN 17-SEP-2026
+DEFINITION  .
+ACCESSION   .
+VERSION     .
+KEYWORDS    .
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct
+REFERENCE   1  (bases 1 to 1098)
+  AUTHORS   .
+  TITLE     Direct Submission
+  JOURNAL   Exported Sep 17, 2026 from SnapGene 8.2.3
+            https://www.snapgene.com
+FEATURES             Location/Qualifiers
+     source          1..1098
+                     /mol_type="other DNA"
+                     /organism="synthetic DNA construct"
+     misc_feature    1..20
+                     /label=5' spacer
+                     /note="color: #c6c9d1"
+     misc_feature    21..38
+                     /label=M13_Fwd
+                     /note="color: #c6c9d1"
+     misc_feature    39..60
+                     /label=T7pro
+                     /note="color: #75c6a9"
+     misc_feature    61
+                     /label=+1
+                     /note="color: #84b0dc"
+     misc_feature    62..80
+                     /label=EsaO
+                     /note="color: #ff9ccd"
+     misc_feature    81..150
+                     /label=Leader sequence 1
+                     /note="color: #b4abac"
+     misc_feature    108..150
+                     /label=epsilon enhancer
+                     /note="color: #93c5fd"
+     misc_feature    137..142
+                     /label=Strong RBS
+                     /note="color: #fcd34d"
+     CDS             151..861
+                     /codon_start=1
+                     /label=mNeonGreen
+                     /note="color: #b1ff67"
+                     /translation="MVSKGEEDNMASLPATHELHIFGSINGVDFDMVGQGTGNPNDGYE
+                     ELNLKSTKGDLQFSPWILVPHIGYGFHQYLPYPDGMSPFQAAMVDGSGYQVHRTMQFED
+                     GASLTVNYRYTYEGSHIKGEAQVKGTGFPADGPVMTNSLTAADWCRSKKTYPNDKTIIS
+                     TFKWSYTTGNGKRYRSTARTTYTFAKPMAANYLKNQPMYVFRKTELKHSKTELNFKEWQ
+                     KAFTDVMGMDELYK"
+     misc_feature    1011..1057
+                     /label=T7 terminator
+                     /note="color: #c6c9d1"
+     misc_feature    complement(1058..1078)
+                     /label=M13_Rev
+                     /note="color: #c6c9d1; direction: LEFT"
+     misc_feature    1079..1098
+                     /label=3' spacer
+                     /note="color: #c6c9d1"
+ORIGIN
+        1 gggaccatta cggaggcagt gtaaaacgac ggccagtgcc ggttaatacg actcactata
+       61 gcctgtacta tagtgcaggt ggagattgtg agcggataac aattcccctc tagaaataat
+      121 tttgtttaac tttaagaagg agatatacat atggtgagca aaggcgaaga ggataatatg
+      181 gcaagcctgc ctgcaacaca tgaactgcat atttttggta gcattaacgg cgtggatttt
+      241 gatatggttg gtcaaggcac cggtaatccg aatgatggtt atgaagaact gaatctgaaa
+      301 agcaccaaag gcgatctgca gtttagcccg tggattctgg ttccgcatat tggttatggt
+      361 tttcatcagt atctgccgta tccggatggt atgagcccgt ttcaggcagc aatggttgat
+      421 ggtagcggtt atcaggttca tcgtaccatg cagtttgaag atggtgcaag cctgaccgtt
+      481 aattatcgtt atacctatga aggcagccac attaaaggtg aagcacaggt taaaggtaca
+      541 ggttttccgg cagatggtcc ggttatgacc aatagtctga ccgcagcaga ttggtgtcgt
+      601 agcaaaaaaa cctatccgaa cgataaaacc atcatcagca ccttcaaatg gtcatatacc
+      661 accggcaatg gtaaacgtta tcgtagcacc gcacgtacca cctatacctt tgcaaaaccg
+      721 atggcagcaa actatctgaa aaatcagccg atgtatgtgt ttcgcaaaac ggaactgaaa
+      781 cattccaaaa ccgagctgaa ctttaaagaa tggcagaaag catttaccga tgtgatgggc
+      841 atggatgaac tatacaaata aggatcccgg gaattctcga gtaaggttaa cctgcaggag
+      901 gcctttaatt aaggtggtgc ggccgcgcta gcggtcccgg gggatcgatc cggctgctaa
+      961 caaagcccga aaggaagctg agttggctgc tgccaccgct gagcaataac tagcataacc
+     1021 ccttggggcc tctaaacggg tcttgagggg ttttttgcat ggtcatagct gtttcctgcc
+     1081 tgatgcatga gctagcag
+//
