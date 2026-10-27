@@ -1,0 +1,80 @@
+LOCUS       t7pro-ls1-esard9        1118 bp    DNA     linear   SYN 17-SEP-2026
+DEFINITION  .
+ACCESSION   .
+VERSION     .
+KEYWORDS    .
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct
+REFERENCE   1  (bases 1 to 1118)
+  AUTHORS   .
+  TITLE     Direct Submission
+  JOURNAL   Exported Sep 17, 2026 from SnapGene 8.2.3
+            https://www.snapgene.com
+FEATURES             Location/Qualifiers
+     source          1..1118
+                     /mol_type="other DNA"
+                     /organism="synthetic DNA construct"
+     source          21..38
+                     /mol_type="other DNA"
+                     /note="color: #ffffff"
+                     /organism="synthetic DNA construct"
+     misc_feature    1..20
+                     /label=5' spacer
+                     /note="color: #c6c9d1"
+     misc_feature    21..38
+                     /label=M13_Fwd
+                     /note="color: #a6acb3"
+     misc_feature    39..60
+                     /label=T7pro
+                     /note="color: #75c6a9"
+     misc_feature    61
+                     /label=+1
+                     /note="color: #84b0dc"
+     misc_feature    62..131
+                     /label=LS1
+                     /note="color: #b4abac"
+     misc_feature    89..131
+                     /label=epsilon enhancer
+                     /note="color: #93c5fd"
+     misc_feature    118..123
+                     /label=Strong RBS
+                     /note="color: #fcd34d"
+     CDS             132..881
+                     /codon_start=1
+                     /label=EsaR
+                     /note="color: #84b0dc"
+                     /translation="MFSFFLENQTITDTLQTYIQRKLSPLGSPDYAYTVVSKKNPSNVL
+                     IISSYPDEWIRLYRANNFQLTDPVILTAFKRTSPFAWDENITLMSGLRFTKIFSLSKQY
+                     NIVNGFTYVLHDHMNNLALLSVIIKGNDQTALEQRLAAEQGTMQMLLIDFNEQMYRLAG
+                     TEGERAPALNQSADKTIFSSRENEVLYWASMGKTYAEIAAITGISVSTVKFHIKNVVVK
+                     LGVSNARQAIRLGVELDLIRPAASAAR"
+     misc_feature    1031..1077
+                     /label=T7 terminator
+                     /note="color: #c6c9d1"
+     misc_feature    complement(1078..1098)
+                     /label=M13_Rev
+                     /note="color: #c6c9d1; direction: LEFT"
+     misc_feature    1099..1118
+                     /label=3' spacer
+                     /note="color: #c6c9d1"
+ORIGIN
+        1 gggaccatta cggaggcagt gtaaaacgac ggccagtgcc ggttaatacg actcactata
+       61 gggagattgt gagcggataa caattcccct ctagaaataa ttttgtttaa ctttaagaag
+      121 gagatataca tatgttctct ttcttccttg aaaaccaaac aataacggat acgcttcaga
+      181 cttacataca gagaaagtta tctccgctgg gtagtccgga ttacgcttac actgttgtga
+      241 gcaaaaaaaa tccttcaaat gttctgatta tttccagtta tcctgacgaa tggattaggt
+      301 tataccgcgc taacaacttt cagctgaccg atccggttat tctcacggcc tttaaacgca
+      361 cctcgccgtt tgcctgggat gagaatatta cgctgatgtc cggcctgcgg ttcaccaaaa
+      421 ttttctcttt atccaagcaa tacaacatcg ttaacggctt tacctatgtc ctgcatgacc
+      481 acatgaacaa ccttgctctg ttgtccgtga tcattaaagg caacgatcag actgcgctgg
+      541 agcaacgcct tgctgccgaa cagggcacga tgcagatgct gctgattgat tttaacgagc
+      601 agatgtaccg actggcaggc accgaaggtg aacgagcacc ggcgttaaat cagagcgcgg
+      661 acaaaacgat attttcctcg cgtgaaaatg aggtgttgta ctgggcgagt atgggcaaaa
+      721 cctatgctga gattgccgct attacgggca tttctgtgag taccgtgaag tttcacatca
+      781 agaatgtggt cgtgaaactg ggcgtcagta acgcccgaca ggctatcaga ctgggtgtag
+      841 aactggatct tatcagaccg gcagcgtcag cagcaaggta aggatcccgg gaattctcga
+      901 gtaaggttaa cctgcaggag gcctttaatt aaggtggtgc ggccgcgcta gcggtcccgg
+      961 gggatcgatc cggctgctaa caaagcccga aaggaagctg agttggctgc tgccaccgct
+     1021 gagcaataac tagcataacc ccttggggcc tctaaacggg tcttgagggg ttttttgcat
+     1081 ggtcatagct gtttcctgcc tgatgcatga gctagcag
+//
