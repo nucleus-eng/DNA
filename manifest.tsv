@@ -16,3 +16,6 @@ reporters/detector-3oc6-hsl/pOpen-LuxR-deGFP.gb	detector-3oc6-hsl,reporter-degfp
 effectors/detector-tetr-atc/pOpen-T7-tetO-PLA1.gb	detector-tetr-atc,effector-pla1	built
 reporters/detector-tetr-atc/pOpen-T7-tetO-C23DO.gb	detector-tetr-atc,reporter-xyle	built
 emitters/pUC-IDT-AMP-lacUV5-luxI.gb		built
+detectors/detector-esar/pT7-EsaR-D91G-linear.gb	detector-esar	built
+detectors/detector-esar/pT7-EsaO-EsaO-mNG-linear.gb	detector-esar	built
+detectors/detector-esar/pT7-EsaO-mNG-linear.gb	detector-esar	built
