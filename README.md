@@ -44,12 +44,13 @@ DNA/
 ├── reporters/
 │   └── <module>/        # linear reporter constructs, grouped as above
 └── detectors/
-    ├── quorum-sensing/  # BjaI/BjaR components
+    ├── quorum-sensing/  # BjaI/BjaR components only; predates the module-named directories
+    ├── detector-esar/   # EsaR repressor and EsaO-mNG reporter templates
     ├── <module>/        # grouped by the docs module the construct serves
     └── ...              # LacI/TetR-based repressor and operator constructs
 ```
 
-Where a directory nests a second level, that level is named for the module directory in [the Nucleus Distribution documentation](https://docs.nucleus.engineering) — `detector-ph/`, `detector-tetr-atc/`, `detector-3oc6-hsl/`. Parts that predate this convention stay at the root of their directory; nothing has been moved.
+Where a directory nests a second level, that level is named for the module directory in [the Nucleus Distribution documentation](https://docs.nucleus.engineering) — `detector-ph/`, `detector-tetr-atc/`, `detector-3oc6-hsl/`, `detector-esar/`. Parts that predate this convention stay at the root of their directory, or in `detectors/quorum-sensing/`, which holds the BjaI/BjaR parts. Nothing that predates the convention has been moved.
 
 ---
 
@@ -163,6 +164,11 @@ The `detectors/` directory contains constructs for building gene circuits that r
 
 **`detectors/detector-3oc6-hsl/`** — LuxR/pLux quorum sensing, responding to 3OC6-HSL:
 - `J23101-luxR-linear.gb` — constitutive LuxR receiver
+
+**`detectors/detector-esar/`** — EsaR/EsaO quorum sensing, responding to 3OC6-HSL. Three linear PCR templates for the [EsaR Detector](https://docs.nucleus.engineering/docs/modules/detector-esar/spec/):
+- `pT7-EsaR-D91G-linear.gb` — T7-EsaR(D91G)-T7term, 1118 bp. Expresses the EsaR repressor point mutant D91G, which is pre-expressed before it enters the sensor reaction
+- `pT7-EsaO-EsaO-mNG-linear.gb` — T7-[EsaO]2-mNG-T7term, 1118 bp. The reference reporter: two EsaO operator sites between the T7 promoter and mNeonGreen
+- `pT7-EsaO-mNG-linear.gb` — T7-[EsaO]-mNG-T7term, 1098 bp. The one-operator reporter, run alongside the two-operator one for comparison
 
 **`detectors/quorum-sensing/`** — BjaI/BjaR quorum sensing system from *Bradyrhizobium japonicum*:
 - `pOpen-pT7-bjaI.gb` — BjaI synthase (signal production)
