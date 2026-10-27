@@ -1,0 +1,157 @@
+LOCUS       LuxR-deGFP-linear       1952 bp    DNA     linear   UNA 25-JUN-2026
+DEFINITION  .
+ACCESSION   LuxR-deGFP-linear
+VERSION     LuxR-deGFP-linear
+KEYWORDS    .
+SOURCE      natural DNA sequence
+  ORGANISM  unspecified
+            .
+REFERENCE   1  (bases 1 to 1952)
+  AUTHORS   Bnext Bio
+  TITLE     Direct Submission
+  JOURNAL   Exported Jun 25, 2026 from SnapGene 8.2.2 https://www.snapgene.com
+FEATURES             Location/Qualifiers
+     source          1..1952
+                     /mol_type="genomic DNA"
+                     /note="color: #ffffff"
+                     /organism="unspecified"
+     source          join(1..18,19..30)
+                     /mol_type="genomic DNA"
+                     /note="This feature has 2 segments: 1:  1 .. 18 / #ffffff
+                     2: 19 .. 30 / #ffffff"
+                     /organism="unspecified"
+     source          1920..1931
+                     /mol_type="genomic DNA"
+                     /note="color: #ffffff"
+                     /organism="unspecified"
+     source          1932..1952
+                     /mol_type="genomic DNA"
+                     /note="color: #ffffff"
+                     /organism="unspecified"
+     primer_bind     1..18
+                     /label="M13 fwd"
+                     /note="common sequencing primer, one of multiple similar
+                     variants"
+                     /note="color: #a020f0; direction: RIGHT"
+     misc_feature    19..24
+                     /label="BbsI"
+                     /note="color: #a6acb3"
+     misc_feature    27..30
+                     /label="MC1-TU-L"
+                     /note="color: #a6acb3"
+     misc_feature    34..55
+                     /label="BioBrick prefix"
+                     /note="pLannotate"
+                     /note="/database=snapgene"
+                     /note="/fragment=False"
+                     /note="/identity=100.0"
+                     /note="/match_length=100.0"
+                     /note="/other=misc_feature"
+                     /note="color: #ffef86"
+     misc_feature    56..90
+                     /label="BBa_J23101"
+                     /note="color: #b1ff67"
+     misc_feature    99..110
+                     /label="BBa_B0034"
+                     /note="color: #b1ff67"
+     CDS             117..866
+                     /codon_start=1
+                     /label="luxR"
+                     /note="pLannotate"
+                     /note="/database=swissprot"
+                     /note="/fragment=False"
+                     /note="/identity=100.0"
+                     /note="/match_length=100.0"
+                     /note="/other=CDS"
+                     /note="color: #84b0dc"
+                     /translation="MKNINADDTYRIINKIKACRSNNDINQCLSDMTKMVHCEYYLLAI
+                     IYPHSMVKSDISILDNYPKKWRQYYDDANLIKYDPIVDYSNSNHSPINWNIFENNAVNK
+                     KSPNVIKEAKTSGLITGFSFPIHTANNGFGMLSFAHSEKDNYIDSLFLHACMNIPLIVP
+                     SLVDNYRKINIANNKSNNDLTKREKECLAWACEGKSSWDISKILGCSERTVTFHLTNAQ
+                     MKLNTTNRCQSISKAILTGAIDCPYFKN"
+     misc_feature    881..1009
+                     /label="B0015 double terminator"
+                     /label="double terminator"
+                     /note="color: #d59687"
+     misc_feature    1010..1015
+                     /label="RF[10] scar RBS"
+                     /note="color: #c6c9d1"
+     misc_feature    1018..1072
+                     /label="Plux"
+                     /note="color: #85dae9"
+     misc_feature    1018..1037
+                     /label="lux box"
+                     /note="color: #f58a5e"
+     misc_feature    1059..1064
+                     /label="-10"
+                     /note="color: #ffef86"
+     misc_feature    1065..1067
+                     /label="discriminator element"
+                     /note="color: #ffef86"
+     misc_feature    1071
+                     /label="+1"
+                     /note="color: #84b0dc"
+     RBS             1081..1092
+                     /label="Bba_B0034"
+                     /note="color: #d59687"
+     misc_feature    1093..1098
+                     /label="RF[10] scar RBS"
+                     /note="color: #c6c9d1"
+     CDS             1099..1776
+                     /codon_start=1
+                     /label="deGFP"
+                     /note="color: #00ff00"
+                     /translation="MELFTGVVPILVELDGDVNGHKFSVSGEGEGDATYGKLTLKFICT
+                     TGKLPVPWPTLVTTLTYGVQCFSRYPDHMKQHDFFKSAMPEGYVQERTIFFKDDGNYKT
+                     RAEVKFEGDTLVNRIELKGIDFKEDGNILGHKLEYNYNSHNVYIMADKQKNGIKVNFKI
+                     RHNIEDGSVQLADHYQQNTPIGDGPVLLPDNHYLSTQSALSKDPNEKRDHMVLLEFVTA
+                     AGI"
+     misc_feature    1791..1919
+                     /label="B0015 Double Terminator"
+                     /note="color: #85dae9"
+     misc_feature    1920..1923
+                     /label="MC1-TU-R"
+                     /note="color: #a6acb3"
+     misc_feature    complement(1926..1931)
+                     /label="BbsI"
+                     /note="color: #a6acb3; direction: LEFT"
+     primer_bind     complement(1932..1952)
+                     /label="M13 rev"
+                     /note="common sequencing primer, one of multiple similar
+                     variants"
+                     /note="color: #a020f0; direction: LEFT"
+ORIGIN
+        1 gtaaaacgac ggccagtgga agacatggag ctggaattcg cggccgcttc tagagtttac
+       61 agctagctca gtcctaggta ttatgctagc tactagagaa agaggagaaa tactagatga
+      121 aaaacataaa tgccgacgac acatacagaa taattaataa aattaaagct tgtagaagca
+      181 ataatgatat taatcaatgc ttatctgata tgactaaaat ggtacattgt gaatattatt
+      241 tactcgcgat catttatcct cattctatgg ttaaatctga tatttcaatc ctagataatt
+      301 accctaaaaa atggaggcaa tattatgatg acgctaattt aataaaatat gatcctatag
+      361 tagattattc taactccaat cattcaccaa ttaattggaa tatatttgaa aacaatgctg
+      421 taaataaaaa atctccaaat gtaattaaag aagcgaaaac atcaggtctt atcactgggt
+      481 ttagtttccc tattcatacg gctaacaatg gcttcggaat gcttagtttt gcacattcag
+      541 aaaaagacaa ctatatagat agtttatttt tacatgcgtg tatgaacata ccattaattg
+      601 ttccttctct agttgataat tatcgaaaaa taaatatagc aaataataaa tcaaacaacg
+      661 atttaaccaa aagagaaaaa gaatgtttag cgtgggcatg cgaaggaaaa agctcttggg
+      721 atatttcaaa aatattaggt tgcagtgagc gtactgtcac tttccattta accaatgcgc
+      781 aaatgaaact caatacaaca aaccgctgcc aaagtatttc taaagcaatt ttaacaggag
+      841 caattgattg cccatacttt aaaaattaat aatactagag ccaggcatca aataaaacga
+      901 aaggctcagt cgaaagactg ggcctttcgt tttatctgtt gtttgtcggt gaacgctctc
+      961 tactagagtc acactggctc accttcgggt gggcctttct gcgtttatat actagagacc
+     1021 tgtaggatcg tacaggttta cgcaagaaaa tggtttgtta tagtcgaata aatactagag
+     1081 aaagaggaga aatactagat ggagcttttc actggcgttg ttcccatcct ggtcgagctg
+     1141 gacggcgacg taaacggcca caagttcagc gtgtccggcg agggcgaggg cgacgccacc
+     1201 tacggcaagc tgaccctgaa gttcatctgc accaccggca agctgcccgt gccctggccc
+     1261 accctcgtga ccaccctgac ctacggcgtg cagtgcttca gccgctaccc cgaccacatg
+     1321 aagcagcacg acttcttcaa gtccgccatg cccgaaggct acgtccagga gcgcaccatc
+     1381 ttcttcaagg acgacggcaa ctacaagacc cgcgccgagg tgaagttcga gggcgacacc
+     1441 ctggtgaacc gcatcgagct gaagggcatc gacttcaagg aggacggcaa catcctgggg
+     1501 cacaagctgg agtacaacta caacagccac aacgtctata tcatggccga caagcagaag
+     1561 aacggcatca aggtgaactt caagatccgc cacaacatcg aggacggcag cgtgcagctc
+     1621 gccgaccact accagcagaa cacccccatc ggcgacggcc ccgtgctgct gcccgacaac
+     1681 cactacctga gcacccagtc cgccctgagc aaagacccca acgagaagcg cgatcacatg
+     1741 gtcctgctgg agttcgtgac cgccgccggg atctgataat aatactagag ccaggcatca
+     1801 aataaaacga aaggctcagt cgaaagactg ggcctttcgt tttatctgtt gtttgtcggt
+     1861 gaacgctctc tactagagtc acactggctc accttcgggt gggcctttct gcgtttatac
+     1921 gctatgtctt ccatggtcat agctgtttcc tg
+//

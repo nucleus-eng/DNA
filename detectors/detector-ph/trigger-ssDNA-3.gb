@@ -1,0 +1,12 @@
+LOCUS       trigger-ssDNA-3           36 bp    ds-DNA  linear   UNK 01-JUN-2026
+DEFINITION  .
+ACCESSION   trigger-ssDNA-3
+VERSION     trigger-ssDNA-3
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 tatgcaaaca agacaatacc acacaatttt tttttt
+//

@@ -1,0 +1,101 @@
+LOCUS       pT7-toehold9-PLA1-linear 1203 bp    DNA     linear   UNA 29-JUN-2026
+DEFINITION  .
+ACCESSION   pT7-toehold9-PLA1-linear
+VERSION     pT7-toehold9-PLA1-linear
+KEYWORDS    .
+SOURCE      natural DNA sequence
+  ORGANISM  unspecified
+            .
+REFERENCE   1  (bases 1 to 1203)
+  AUTHORS   Bnext Bio
+  TITLE     Direct Submission
+  JOURNAL   Exported Jun 29, 2026 from SnapGene 8.2.2 https://www.snapgene.com
+FEATURES             Location/Qualifiers
+     source          1..1203
+                     /mol_type="genomic DNA"
+                     /note="color: #ffffff"
+                     /organism="unspecified"
+     source          join(1..18,19..30)
+                     /mol_type="genomic DNA"
+                     /note="This feature has 2 segments: 1:  1 .. 18 / #ffffff
+                     2: 19 .. 30 / #ffffff"
+                     /organism="unspecified"
+     source          1171..1182
+                     /mol_type="genomic DNA"
+                     /note="color: #ffffff"
+                     /organism="unspecified"
+     source          1183..1203
+                     /mol_type="genomic DNA"
+                     /note="color: #ffffff"
+                     /organism="unspecified"
+     primer_bind     1..18
+                     /label="M13 fwd"
+                     /note="common sequencing primer, one of multiple similar
+                     variants"
+                     /note="color: #a020f0; direction: RIGHT"
+     misc_feature    19..24
+                     /label="BbsI"
+                     /note="color: #a6acb3"
+     misc_feature    27..30
+                     /label="MC1-TU-L"
+                     /note="color: #a6acb3"
+     misc_feature    31..49
+                     /label="T7 promoter"
+                     /note="color: #faac61"
+     misc_feature    50..130
+                     /label="toehold 9"
+                     /note="color: #c7b0e3"
+     misc_feature    131..1093
+                     /label="PLA1 (codon-optimized to E. coli)"
+                     /note="phospholipase A1 (PLA1) from Serratia sp. MK1"
+                     /note="color: #b4abac"
+     CDS             131..1093
+                     /codon_start=1
+                     /label="PLA1"
+                     /note="color: #b4abac"
+                     /translation="MSMSLSFTSAIAPAAIQPPMVRTQPEPLSSSQPVEASATKAPVAT
+                     LSQNSLNAQSLLNTLVSEISAAAPAAANQGVTRGQQPQKGDYTLALLAKDVYSTGSQGV
+                     EGFNRLSADALLGAGIDPASLQDAASGFQAGIYTDNQQYVLAFAGTNDMRDWLSNVRQA
+                     TGYDDVQYNQAVSLAKSAKAAFGDALVIAGHSLGGGLAATAALATGTVAVTFNAAGVSD
+                     YTLNRMGIDPAAAKQDAQAGGIRRYSEQYDMLTGTQESTSLIPDAIGHKITLANNDTLS
+                     GIDDWRPSKHLDRSLTAHGIDKVISSMAEQKPWEAMANA"
+     regulatory      1112..1150
+                     /label="T7hyb6 Terminator"
+                     /note="color: #ffffff"
+     misc_feature    1151..1170
+                     /label="Terminator Spacer"
+                     /note="color: #a6acb3"
+     misc_feature    1171..1174
+                     /label="MC1-TU-R"
+                     /note="color: #a6acb3"
+     misc_feature    complement(1177..1182)
+                     /label="BbsI"
+                     /note="color: #a6acb3; direction: LEFT"
+     primer_bind     complement(1183..1203)
+                     /label="M13 rev"
+                     /note="common sequencing primer, one of multiple similar
+                     variants"
+                     /note="color: #a020f0; direction: LEFT"
+ORIGIN
+        1 gtaaaacgac ggccagtgga agacatggag taatacgact cactataggg ttgtgtggta
+       61 ttgtcttgtt tgcatacaga aacagaggag atatgcaatg aagacaataa acctgaaagg
+      121 agcgcaaaag atgtctatgt cactgtcttt tacatcggct atcgcgcccg ctgctattca
+      181 accgccaatg gtccgtacac agccggaacc gttgtcctct agtcagcctg tggaagcgag
+      241 cgctacaaaa gcccctgtcg caaccctgag tcagaactcc ctcaatgccc aatcattgct
+      301 caataccctc gtctccgaaa tctctgccgc cgctccggcg gcagctaatc aaggagtcac
+      361 gcgcgggcag cagccacaga aaggagacta tactttggcg ctgctcgcta aagatgttta
+      421 ttcaaccggt tcacagggtg tcgaagggtt caaccgcctg tcagctgatg cgttgttagg
+      481 agcaggtata gatccggcaa gtctgcagga cgccgcttcc ggctttcaag cagggattta
+      541 tacggataac cagcagtacg ttcttgcttt tgctgggacc aatgatatgc gagattggtt
+      601 gagcaacgtc cgtcaagcga ccggatacga cgatgtacag tataatcagg ctgtcagctt
+      661 ggcaaaatct gctaaagccg ccttcggcga cgcgcttgtt attgccggcc atagcttagg
+      721 gggcggcctc gccgcaacgg ctgcattggc tacagggact gtggctgtta cttttaacgc
+      781 agctggggtg tcagattata cgcttaatcg tatgggaatt gaccctgcgg cagccaaaca
+      841 ggatgcccag gccggtggga tccgtcgcta tagcgaacaa tacgatatgc ttactgggac
+      901 acaagaatca acaagcctca tcccagacgc tattggtcat aaaattacct tagcgaacaa
+      961 cgatacattg agtggcattg atgactggcg tccctcaaaa cacctggatc gttcactgac
+     1021 tgcacatggt atcgataaag ttatctcgag tatggcggaa cagaagccgt gggaagcaat
+     1081 ggccaacgca tgatgaagag cttagagacc gagataacag atacttcggt atctgttatc
+     1141 tgtttttttt ctaagcatca cactgccgtc cgctatgtct tccatggtca tagctgtttc
+     1201 ctg
+//
