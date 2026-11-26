@@ -170,6 +170,8 @@ The `detectors/` directory contains constructs for building gene circuits that r
 - `pT7-EsaO-EsaO-mNG-linear.gb` — T7-[EsaO]2-mNG-T7term, 1118 bp. The reference reporter: two EsaO operator sites between the T7 promoter and mNeonGreen
 - `pT7-EsaO-mNG-linear.gb` — T7-[EsaO]-mNG-T7term, 1098 bp. The one-operator reporter, run alongside the two-operator one for comparison
 
+**mNeonGreen is patented.** The reporter protein in the two constructs above is covered by a United States patent.
+
 **`detectors/quorum-sensing/`** — BjaI/BjaR quorum sensing system from *Bradyrhizobium japonicum*:
 - `pOpen-pT7-bjaI.gb` — BjaI synthase (signal production)
 - `pOpen-bjaR-GFP-native.gb` — BjaR receptor fused to GFP reporter under native promoter. Used in an _E. coli_ strain as a reporter for signal emitted by a syncell with bjaI.
